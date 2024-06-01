@@ -52,12 +52,31 @@ function PodcastPlayer() {
   }
 
   return (
-    <div className="container mx-auto p-4">
-      <h1 className="text-2xl font-bold mb-4">{episodeInfo.title}</h1>
-      <p className="mt-4">{episodeInfo.description}</p>
-      <div className="mt-8">
-        <h2 className="text-xl font-bold mb-2">Transcript:</h2>
-        <pre className="whitespace-pre-wrap">{transcript}</pre>
+    <div className="bg-black text-white min-h-screen flex flex-col items-center justify-center">
+      <div className="max-w-md w-full">
+        <img
+          src={`${BASE_URL}/subreddit/${subreddit}/cover.png`}
+          alt={episodeInfo.title}
+          className="w-full h-auto mb-4 rounded-lg"
+        />
+        <div className="px-4">
+          <h1 className="text-2xl font-bold mb-2">{episodeInfo.title}</h1>
+          <p className="text-gray-400 mb-4">By KAI & ELIZA</p>
+          <div className="mb-4">
+            <p className="text-gray-400">{episodeInfo.description}</p>
+          </div>
+          <div className="flex justify-center mb-4">
+            <audio
+              src={`${BASE_URL}/subreddit/${subreddit}/${subreddit}-${episodeId}.m4a`}
+              controls
+              className="w-full"
+            />
+          </div>
+          <div className="mb-4">
+            <h2 className="text-xl font-bold mb-2">Transcript:</h2>
+            <pre className="whitespace-pre-wrap text-gray-400">{transcript}</pre>
+          </div>
+        </div>
       </div>
     </div>
   );
