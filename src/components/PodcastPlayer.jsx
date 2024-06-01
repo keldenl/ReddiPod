@@ -2,7 +2,9 @@ import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
 import ReactPlayer from "react-player";
-import yaml from "js-yaml"
+import yaml from "js-yaml";
+
+import { BASE_URL } from "../constants";
 
 function PodcastPlayer() {
   const { subreddit } = useParams();
@@ -12,7 +14,7 @@ function PodcastPlayer() {
     async function fetchPodcastInfo() {
       try {
         const response = await axios.get(
-          `https://raw.githubusercontent.com/keldenl/auto-podcast/main/subreddit/${subreddit}/info.yaml`
+          `${BASE_URL}/subreddit/${subreddit}/info.yaml`
         );
         const data = yaml.load(response.data);
         setPodcastInfo(data);
@@ -32,7 +34,7 @@ function PodcastPlayer() {
     <div className="container mx-auto p-4">
       <h1 className="text-2xl font-bold mb-4">{podcastInfo.title}</h1>
       <ReactPlayer
-        url={`https://raw.githubusercontent.com/keldenl/auto-podcast/main/subreddit/${subreddit}/202405020104.mp3`}
+        url={`${BASE_URL}/subreddit/${subreddit}/202405020104.m4a`}
         controls
         width="100%"
         height="50px"

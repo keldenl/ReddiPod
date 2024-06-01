@@ -1,7 +1,9 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
-import yaml from "js-yaml"
+import yaml from "js-yaml";
+
+import { BASE_URL } from "../constants";
 
 function PodcastList() {
   const [podcasts, setPodcasts] = useState([]);
@@ -9,9 +11,7 @@ function PodcastList() {
   useEffect(() => {
     async function fetchPodcasts() {
       try {
-        const response = await axios.get(
-          "https://raw.githubusercontent.com/keldenl/auto-podcast/main/subreddit-list.yaml"
-        );
+        const response = await axios.get(`${BASE_URL}/subreddit-list.yaml`);
         const data = yaml.load(response.data);
         setPodcasts(data.subreddits);
       } catch (error) {
