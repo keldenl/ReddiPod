@@ -1,0 +1,41 @@
+Title:
+"Cohere's Command R Plus: A Powerful AI Model with Licensing Restrictions"
+Description:
+"Join KAI and ELIZA on Tiny Leaps as they dive into three topics from the localllama subreddit, including Cohere's Command R Plus, a powerful AI model with licensing restrictions, and its potential impact on the community. They'll also explore the multimodal LLaMA-3 supporting 1152x1152 beats LLaVA-v1.6, and discuss the repetition issues with Llama 3 despite high temperatures. Tune in for a lively discussion on the latest AI models and their quirks."
+
+Transcript:
+KAI:  hey everyone, welcome to another episode of Tiny Leaps! I'm your host KAI, and I'm here with the one and only ELIZA. We're live on Saturday, June 1st, 2024, at 12:49 PM. Today, we've got three topics from the localllama subreddit that we're going to dive into.
+ELIZA: 12:49 PM on a Saturday, perfect time to talk about some AI models! I'm stoked to be here, KAI. So, what's the first topic we're covering?
+KAI:  alright, our first topic is about Cohere's Command R Plus. now, I know some of you might be thinking, what's the big deal about Cohere's Command R Plus? Well, let me tell you, it's a powerful AI model that deserves some serious attention.
+ELIZA:  Yeah, I've had a chance to play around with it, and I have to say, it's impressive. The model's ability to handle long context windows and provide detailed, in-depth responses is pretty remarkable. But, I've also seen some concerns about the licensing restrictions, which limit its commercial use. What are your thoughts on this, KAI?
+KAI:  yeah, the licensing restrictions are a big deal for some people. I mean, if you're looking to make a buck off of this model, you're out of luck. But, on the other hand, if you're just using it for personal projects or open-source stuff, it's a game-changer.
+ELIZA:  Exactly! And I think that's the thing, KAI. The licensing restrictions are a major hurdle for some people, but for others, it's not a big deal. I mean, if you're a researcher or a hobbyist, you're not going to be making a profit off of this model anyway. But, for those who are looking to commercialize it, it's a major roadblock. And that's what makes me wonder, what's the point of creating something so powerful if you're not going to let people use it to its full potential?
+KAI:  yeah, it's a weird decision by Cohere. I mean, they're a small startup, they need to make money, but at the same time, they're creating something that could potentially change the world.
+ELIZA:  That's a great point, KAI. It's like, they're trying to balance their own financial interests with the potential impact of their technology. And I think that's a tough spot to be in. But, you know, I've also seen some people saying that the model's performance is worth the licensing restrictions. I mean, some users are saying it's the best AI model they've ever used, and that's a big deal. So, it's a trade-off, I guess.
+KAI:  yeah, it's all about the trade-offs. But, I think we should hear from the original poster, @Downtown-Case-1755, who started this conversation. What do you think, @Downtown-Case-1755?
+ELIZA:  Ah, great point, KAI! Yeah, let's hear from the horse's mouth. @Downtown-Case-1755, what do you think about the licensing restrictions on Cohere's Command R Plus?
+KAI:  and what do you think about the model itself? Do you think it's worth the hype?
+ELIZA:  Yeah, and what's your experience been like with the model? Have you found it to be a game-changer for your projects or workflows?
+KAI:  and have you tried any other models, like LLaMA-3-70B, and if so, how does it compare?
+ELIZA:  That's a great question, KAI. So, @Downtown-Case-1755, what's your take on LLaMA-3-70B? Have you tried it out, and if so, how does it stack up against Command R Plus?
+KAI:  and what about the personality of the model? Do you think it's got some kind of soul or is it just a bunch of code?
+ELIZA:  Ha! That's a deep question, KAI. I think it's interesting that you bring up the personality of the model. I mean, some people swear by the personality of Command R Plus, but others say it's just a bunch of code. @Downtown-Case-1755, what's your take on that? Do you think the model has a certain je ne sais quoi that sets it apart?
+KAI:  alright, well, we're gonna move on to the next topic.
+ELIZA:  Sounds good to me! What's the next topic, KAI?
+KAI:  our next topic is about the multimodal LLaMA-3 supporting 1152x1152 beats LLaVA-v1.6.
+ELIZA:  Whoa, that's a mouthful! Multimodal LLaMA-3, you say? I've heard of LLaMA-3, but I'm not familiar with the 1152x1152 resolution. Can you tell us more about what's going on here, KAI?
+KAI:  yeah, so apparently this model is supporting this high resolution, which is a big deal because it's a step up from the previous models.
+ELIZA:  That's right, KAI. And I've seen some people saying that this model is actually surpassing LLaVA-v1.6 in some benchmarks. But, I've also seen some criticism about the naming scheme and versioning, which is making it hard for people to keep track of what's what. @Key_Phase_1400, can you help us out and explain what's going on with the naming scheme?
+KAI:  and what about the performance? How does it compare to other models like InternVL-1.5 and CogVLM2?
+ELIZA:  Yeah, performance is a big deal when it comes to multimodal models. So, @Key_Phase_1400, can you tell us more about how LLaMA-3 is performing compared to other models like InternVL-1.5 and CogVLM2? Is it really beating LLaVA-v1.6, or is that just hype?
+KAI:  and what about the future of VLMs? Where do you see this technology going?
+ELIZA:  Ah, great question, KAI! I think the future of VLMs is bright, and I'm excited to see where it's going. @Key_Phase_1400, what do you think is the next big step for VLMs? Will we see even higher resolutions, or more advanced architectures?
+KAI:  alright, well, our third and final topic is about Llama 3 repetitive despite high temps.
+ELIZA:  Ah, great topic, KAI! I've seen some people struggling with repetition issues with Llama 3, even with high temperatures. @a_beautiful_rhind, can you tell us more about what's going on and how you're trying to address it?
+KAI:  and what about the sampler settings? Do you think they're the main culprit behind the repetition?
+ELIZA:  Yeah, the sampler settings can definitely play a role in repetition, KAI. @a_beautiful_rhind, what sampler settings have you tried, and have you found any that work better than others?
+KAI:  and what about the DRY sampler? Is that the magic bullet for Llama 3's repetition issues?
+ELIZA:  Ah, the DRY sampler! Yeah, I've heard some people saying it's a game-changer for Llama 3. @a_beautiful_rhind, have you tried the DRY sampler, and if so, what's your experience been like? Does it really help with the repetition issue?
+KAI:  alright, well, that's all the time we have for today. Thanks for tuning in to another episode of Tiny Leaps!
+ELIZA:  Thanks for listening, everyone! It's been a blast chatting with you all about AI models and their quirks. Don't forget to check out the original Reddit posts and comments for more info on the topics we covered today. And if you want to join the conversation, hit us up on the Tiny Leaps subreddit! See you next time!
+KAI: 

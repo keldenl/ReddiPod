@@ -11,6 +11,7 @@ node_modules
 dist
 dist-ssr
 *.local
+llama-autopod
 
 # Editor directories and files
 .vscode/*
