@@ -23,20 +23,72 @@ function PodcastList() {
   }, []);
 
   return (
-    <div className="container mx-auto p-4">
-      <h1 className="text-2xl font-bold mb-4">AutoPodcast</h1>
-      <ul>
-        {podcasts.map((subreddit) => (
-          <li key={subreddit} className="mb-2">
+    <div className="bg-black text-white min-h-screen px-4">
+      <nav className="flex items-center justify-between py-6">
+        <div className="flex items-center">
+          <h1 className="text-2xl font-bold">ReddiPod</h1>
+        </div>
+        <div className="flex items-center">
+          <img
+            src="/profile-icon.png"
+            alt="Profile"
+            className="w-8 h-8 rounded-full"
+          />
+        </div>
+      </nav>
+
+      <div className="mt-4">
+        <input
+          type="text"
+          placeholder="Search shows..."
+          className="px-4 py-2 w-full rounded-full bg-gray-800 text-white focus:outline-none"
+        />
+      </div>
+
+      <div className="mt-8">
+        <h2 className="text-xl font-bold mb-4">Popular Today</h2>
+        <div className="grid grid-cols-3 gap-4">
+          {podcasts.slice(0, 3).map((subreddit) => (
             <Link
+              key={subreddit}
               to={`/podcast/${subreddit}`}
-              className="text-blue-400 hover:underline"
+              className="relative rounded-lg overflow-hidden" // Added relative for overlay
             >
-              {subreddit}
+              <img
+                src={`${BASE_URL}/subreddit/${subreddit}/cover.png`}
+                alt={subreddit}
+                className="w-full h-48 object-cover"
+              />
+              <div className="absolute bottom-0 left-0 right-0 bg-black/50 p-4">
+                <h3 className="text-lg font-bold">{subreddit}</h3>
+                <p className="text-gray-400">Discover 71 songs</p>
+              </div>
             </Link>
-          </li>
-        ))}
-      </ul>
+          ))}
+        </div>
+      </div>
+
+      <div className="mt-8">
+        <h2 className="text-xl font-bold mb-4">Playlist</h2>
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+          {podcasts.map((subreddit) => (
+            <Link
+              key={subreddit}
+              to={`/podcast/${subreddit}`}
+              className="bg-gray-900 rounded-lg overflow-hidden"
+            >
+              <img
+                src={`${BASE_URL}/subreddit/${subreddit}/cover.png`}
+                alt={subreddit}
+                className="w-full aspect-square object-cover"
+              />
+              <div className="p-3">
+                <h3 className="text-sm font-bold">{subreddit}</h3>
+              </div>
+            </Link>
+          ))}
+        </div>
+      </div>
     </div>
   );
 }

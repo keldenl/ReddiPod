@@ -32,6 +32,8 @@ function PodcastPlayer() {
         playEpisode({
           title: data.title,
           url: `${BASE_URL}/subreddit/${subreddit}/${subreddit}-${episodeId}.m4a`,
+          image: `${BASE_URL}/subreddit/${subreddit}/cover.png`,
+          podcastName: `r/${subreddit}`,
         });
 
         // Fetch transcript
@@ -64,13 +66,6 @@ function PodcastPlayer() {
           <p className="text-gray-400 mb-4">By KAI & ELIZA</p>
           <div className="mb-4">
             <p className="text-gray-400">{episodeInfo.description}</p>
-          </div>
-          <div className="flex justify-center mb-4">
-            <audio
-              src={`${BASE_URL}/subreddit/${subreddit}/${subreddit}-${episodeId}.m4a`}
-              controls
-              className="w-full"
-            />
           </div>
           <div className="mb-4">
             <h2 className="text-xl font-bold mb-2">Transcript:</h2>
