@@ -2,16 +2,28 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import PodcastList from "./components/PodcastList";
 import PodcastDetail from "./components/PodcastDetail";
 import PodcastPlayer from "./components/PodcastPlayer";
+import BottomPlayer from "./components/BottomPlayer";
+import { PlayerProvider } from "./context/PlayerContext";
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<PodcastList />} />
-        <Route path="/podcast/:subreddit" element={<PodcastDetail />} />
-        <Route path="/podcast/:subreddit/episode/:episodeId" element={<PodcastPlayer />} />
-      </Routes>
-    </Router>
+    <PlayerProvider>
+      <Router>
+        <div className="flex flex-col min-h-screen">
+          <div className="flex-grow">
+            <Routes>
+              <Route path="/" element={<PodcastList />} />
+              <Route path="/podcast/:subreddit" element={<PodcastDetail />} />
+              <Route
+                path="/podcast/:subreddit/episode/:episodeId"
+                element={<PodcastPlayer />}
+              />
+            </Routes>
+          </div>
+          <BottomPlayer />
+        </div>
+      </Router>
+    </PlayerProvider>
   );
 }
 
