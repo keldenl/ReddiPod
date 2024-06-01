@@ -1,16 +1,16 @@
-import PodcastPlayer from './components/PodcastPlayer';
-import PodcastList from './components/PodcastList';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import PodcastList from "./components/PodcastList";
+import PodcastDetail from "./components/PodcastDetail";
+import PodcastPlayer from "./components/PodcastPlayer";
 
 function App() {
   return (
     <Router>
-      <div className="App bg-gray-900 min-h-screen text-white">
-        <Routes>
-          <Route path="/" element={<PodcastList />} />
-          <Route path="/podcast/:subreddit" element={<PodcastPlayer />} />
-        </Routes>
-      </div>
+      <Routes>
+        <Route path="/" element={<PodcastList />} />
+        <Route path="/podcast/:subreddit" element={<PodcastDetail />} />
+        <Route path="/podcast/:subreddit/episode/:episodeId" element={<PodcastPlayer />} />
+      </Routes>
     </Router>
   );
 }
