@@ -24,26 +24,11 @@ function PodcastList() {
 
   return (
     <div className="bg-black text-white min-h-screen px-4">
-      <nav className="flex items-center justify-between py-6">
-        <div className="flex items-center">
-          <h1 className="text-2xl font-bold">ReddiPod</h1>
-        </div>
-        <div className="flex items-center">
-          <img
-            src="/profile-icon.png"
-            alt="Profile"
-            className="w-8 h-8 rounded-full"
-          />
-        </div>
-      </nav>
-
-      <div className="mt-4">
-        <input
-          type="text"
-          placeholder="Search shows..."
-          className="px-4 py-2 w-full rounded-full bg-gray-800 text-white focus:outline-none"
-        />
-      </div>
+      <input
+        type="text"
+        placeholder="Search shows..."
+        className="px-4 py-2 w-full rounded-full bg-gray-800 text-white focus:outline-none"
+      />
 
       <div className="mt-8">
         <h2 className="text-xl font-bold mb-4">Popular Today</h2>

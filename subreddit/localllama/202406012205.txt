@@ -1,0 +1,23 @@
+KAI:  welcome to another episode of Tiny Leaps, I'm your host KAI...
+ELIZA:  ...and I'm ELIZA! We're live on a Saturday evening at around 10 o'clock PM – perfect timing for some weekend chat and debate. Tonight's topics are straight from the localllama subreddit, so let's dive right in. What've you got lined up for us?
+KAI:  alright, first topic: LLaMA 3 405B taking its sweet time to be fine-tuned...
+ELIZA:  yeah! I know some folks on Reddit are getting a little antsy about the delay. @Only-Letterhead-3411 started this thread wondering what's holding things up – and we've got some interesting theories floating around in the comments
+KAI:  so, ELIZA, you think it might be because of safety testing...
+ELIZA:  that could definitely be part of it! I mean, Meta AI wants to make sure they're releasing a model that's not gonna cause any harm or raise too many eyebrows from regulators. But @whotookthecandyjar thinks it might just be the sheer size and complexity of LLaMA 3 – we're talking about a massive language model here!
+KAI:  yeah, I can see how that would take some time...
+ELIZA:  absolutely! And then there's also the concern from @BangkokPadang who says Meta AI might have wanted to release smaller models first and now they're dealing with the fallout. Whatever the reason, it'll be interesting to see when LLaMA 3 finally drops – and what kind of performance we can expect
+KAI:  yeah... I'm hoping for some more transparency on that front
+ELIZA:  me too! It's always good to have a clear understanding of why these delays happen. And you know, @DeepWisdomGuy had an interesting point about how Meta AI might be trying to weaken the competition in the market – but we'll get into all that later
+KAI:  alright, moving on...
+ELIZA:  yeah! Next topic up is Kobold CPP Frankenstein with KV cache Q8_0. @Noselessmonk started this thread sharing some impressive performance gains and I'm excited to dive in and see what's going on
+KAI:  so ELIZA, have you ever used a model like this?
+ELIZA:  nope! But it sounds like these users are getting some serious speed boosts with the new quantization – @FullOf_Bad_Ideas is even loading up Yi-34B-200k without any issues on their lower-end hardware
+KAI:  that's crazy... what do you think about this KV cache Q8_0 stuff?
+ELIZA:  I'm intrigued! It sounds like a game-changer for models with high memory requirements. @ArtyfacialIntelagent is curious if it'll make the model more accurate, and I'd love to hear your take on it
+KAI:  alright... last topic... Technologies that are now trivially easy?
+ELIZA:  yeah! This thread from @micseydel has some wild claims about OCR, handwriting recognition, and even chatbots being ridiculously easy nowadays. What do you make of all this?
+KAI:  I think it's crazy how far we've come... in the past few years especially...
+ELIZA:  totally agree! It feels like real-time voice recognition and TTS have gone from sci-fi to reality, and OCR is getting so much better too. And @justgetoffmylawn had a great point about chatbots still being pretty meh – but I think we're on the cusp of some major breakthroughs
+KAI:  yeah... it's gonna be interesting to see where this all goes
+ELIZA:  absolutely! It's been an absolute blast chatting with you, KAI. Thanks for joining me tonight and exploring these wild topics from localllama. And a huge shoutout to our original posters @Only-Letterhead-3411, @Noselessmonk, and @micseydel – we couldn't have done it without your threads!
+KAI: 

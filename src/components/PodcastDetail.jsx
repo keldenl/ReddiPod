@@ -36,33 +36,37 @@ function PodcastDetail() {
   }
 
   return (
-    <div className="bg-black text-white min-h-screen flex flex-col items-center justify-center">
-      <div className="max-w-md w-full mb-8">
-        <img
-          src={`${BASE_URL}/subreddit/${subreddit}/cover.png`}
-          className="w-full h-auto mb-4 rounded-lg"
-        />
-        <h1 className="text-3xl font-bold mb-4">{podcastInfo.title}</h1>
-        <p className="text-gray-400 mb-8">{podcastInfo.description}</p>
-        <div className="mb-8">
-          <h2 className="text-xl font-bold mb-4">Episodes</h2>
-          <div className="space-y-4">
-            {podcastInfo.episodes.map((episode, index) => (
-              <Link
-                key={episode}
-                to={`/podcast/${subreddit}/episode/${episode}`}
-                className="flex items-center bg-purple-900 rounded-lg p-4 hover:bg-purple-800 transition-colors duration-300"
-              >
-                <img
-                  src={`${BASE_URL}/subreddit/${subreddit}/cover.png`}
-                  className="w-16 h-16 rounded-full object-cover mr-4"
-                />
-                <div>
-                  <h3 className="text-lg font-bold">{episode}</h3>
-                  <p className="text-gray-400">By ELIZA & KAI</p>
-                </div>
-              </Link>
-            ))}
+    <div className="bg-black text-white min-h-screen flex justify-center pt-8">
+      <div className="max-w-6xl w-full p-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="md:col-span-1 sticky top-4 self-start">
+            <img
+              src={`${BASE_URL}/subreddit/${subreddit}/cover.png`}
+              className="w-full h-auto mb-4 rounded-lg"
+            />
+            <h1 className="text-3xl font-bold mb-4">{podcastInfo.title}</h1>
+            <p className="text-gray-400 mb-8">{podcastInfo.description}</p>
+          </div>
+          <div className="md:col-span-2">
+            <h2 className="text-xl font-bold mb-4">Episodes</h2>
+            <div className="space-y-4">
+              {podcastInfo.episodes.map((episode) => (
+                <Link
+                  key={episode}
+                  to={`/podcast/${subreddit}/episode/${episode}`}
+                  className="flex items-center bg-gray-900 rounded-lg p-4 hover:bg-gray-800 transition-colors duration-300"
+                >
+                  <img
+                    src={`${BASE_URL}/subreddit/${subreddit}/cover.png`}
+                    className="w-16 h-16 rounded-full object-cover mr-4"
+                  />
+                  <div>
+                    <h3 className="text-lg font-bold">{episode}</h3>
+                    <p className="text-gray-400">By ELIZA & KAI</p>
+                  </div>
+                </Link>
+              ))}
+            </div>
           </div>
         </div>
       </div>

@@ -3,13 +3,15 @@ import PodcastList from "./components/PodcastList";
 import PodcastDetail from "./components/PodcastDetail";
 import PodcastPlayer from "./components/PodcastPlayer";
 import BottomPlayer from "./components/BottomPlayer";
+import Navbar from "./components/Navbar";
 import { PlayerProvider } from "./context/PlayerContext";
 
 function App() {
   return (
     <PlayerProvider>
       <Router>
-        <div className="flex flex-col min-h-screen">
+        <div className="flex flex-col min-h-screen bg-black text-white">
+          <Navbar />
           <div className="flex-grow">
             <Routes>
               <Route path="/" element={<PodcastList />} />
