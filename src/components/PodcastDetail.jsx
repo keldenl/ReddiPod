@@ -2,12 +2,14 @@ import { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import axios from "axios";
 import yaml from "js-yaml";
+import { formatDistanceToNowStrict, parseISO } from "date-fns"; // Import date-fns for formatting
 
 import { BASE_URL } from "../constants";
 
 function PodcastDetail() {
   const { subreddit } = useParams();
   const [podcastInfo, setPodcastInfo] = useState(null);
+  const [episodes, setEpisodes] = useState([]);
 
   useEffect(() => {
     async function fetchPodcastInfo() {
@@ -17,6 +19,17 @@ function PodcastDetail() {
         );
         const data = yaml.load(response.data);
         setPodcastInfo(data);
+
+        const episodePromises = data.episodes.map(async (episode) => {
+          const episodeResponse = await axios.get(
+            `${BASE_URL}/subreddit/${subreddit}/${episode}.yaml`
+          );
+          const episodeData = yaml.load(episodeResponse.data);
+          return { ...episodeData, date: episode };
+        });
+
+        const episodesData = await Promise.all(episodePromises);
+        setEpisodes(episodesData);
       } catch (error) {
         console.error("Error fetching podcast info:", error);
       }
@@ -47,22 +60,50 @@ function PodcastDetail() {
             <h1 className="text-3xl font-bold mb-4">{podcastInfo.title}</h1>
             <p className="text-gray-400 mb-8">{podcastInfo.description}</p>
           </div>
-          <div className="md:col-span-2">
+          <div className="md:col-span-2 bg-black z-10">
             <h2 className="text-xl font-bold mb-4">Episodes</h2>
             <div className="space-y-4">
-              {podcastInfo.episodes.map((episode) => (
+              {episodes.map((episode) => (
                 <Link
-                  key={episode}
-                  to={`/podcast/${subreddit}/episode/${episode}`}
-                  className="flex items-center bg-gray-900 rounded-lg p-4 hover:bg-gray-800 transition-colors duration-300"
+                  key={episode.date}
+                  to={`/podcast/${subreddit}/episode/${episode.date}`}
+                  className="flex items-center bg-gray-900/85 rounded-lg p-4 hover:bg-gray-900 transition-colors duration-300"
                 >
-                  <img
+                  {/* <img
                     src={`${BASE_URL}/subreddit/${subreddit}/cover.png`}
                     className="w-16 h-16 rounded-full object-cover mr-4"
-                  />
+                  /> */}
                   <div>
-                    <h3 className="text-lg font-bold">{episode}</h3>
-                    <p className="text-gray-400">By ELIZA & KAI</p>
+                    <p className="text-gray-500 uppercase text-xs font-bold">
+                      {formatDistanceToNowStrict(
+                        parseISO(
+                          `${episode.date.substring(
+                            0,
+                            4
+                          )}-${episode.date.substring(
+                            4,
+                            6
+                          )}-${episode.date.substring(
+                            6,
+                            8
+                          )}T${episode.date.substring(
+                            8,
+                            10
+                          )}:${episode.date.substring(10, 12)}`
+                        ),
+                        { addSuffix: true }
+                      )
+                        .replace(" hour", "hr")
+                        .replace(" hours", "hrs")
+                        .replace(" minute", "min")
+                        .replace(" minutes", "mins")}
+                    </p>
+                    <h3 className="text-lg font-bold">{episode.title}</h3>
+                    <p className="text-gray-400">
+                      {episode.description.length > 140
+                        ? `${episode.description.substring(0, 140)}...`
+                        : episode.description}
+                    </p>
                   </div>
                 </Link>
               ))}

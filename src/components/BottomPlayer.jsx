@@ -5,7 +5,7 @@ import { FaPlay, FaPause } from "react-icons/fa";
 function BottomPlayer() {
   const { currentEpisode } = useContext(PlayerContext);
   const [isPlaying, setIsPlaying] = useState(false);
-  const [currentTime, setCurrentTime] = useState(0); // State for current time
+  const [currentTime, setCurrentTime] = useState(0);
   const audioRef = useRef(null);
 
   const handlePlayPause = () => {
@@ -18,14 +18,14 @@ function BottomPlayer() {
   };
 
   const handleTimeUpdate = () => {
-    setCurrentTime(audioRef.current.currentTime); // Update currentTime state
-    setIsPlaying(!audioRef.current.paused); // Update isPlaying state
+    setCurrentTime(audioRef.current.currentTime);
+    setIsPlaying(!audioRef.current.paused);
   };
 
   const handleProgressChange = (e) => {
     const newTime = parseFloat(e.target.value);
-    setCurrentTime(newTime); // Update currentTime immediately
-    audioRef.current.currentTime = newTime; // Update audio element
+    setCurrentTime(newTime);
+    audioRef.current.currentTime = newTime;
   };
 
   useEffect(() => {
@@ -52,12 +52,20 @@ function BottomPlayer() {
     }
   }, [isPlaying, currentEpisode]);
 
+  // Automatically play the episode when the currentEpisode changes
+  useEffect(() => {
+    if (currentEpisode && audioRef.current) {
+      audioRef.current.play();
+      setIsPlaying(true);
+    }
+  }, [currentEpisode]);
+
   if (!currentEpisode) {
     return null;
   }
 
   return (
-    <div className="fixed bottom-4 left-0 right-0  px-4">
+    <div className="fixed bottom-4 left-0 right-0  px-4 z-20">
       <div className="w-full max-w-md mx-auto rounded-xl overflow-hidden bg-white/10 backdrop-blur-md shadow-lg">
         <div className="flex items-center px-4 py-2">
           <img
@@ -65,7 +73,7 @@ function BottomPlayer() {
             alt={currentEpisode.title}
             className="w-16 h-16 object-cover mr-4 rounded-md"
             style={{
-              backdropFilter: "blur(5px)" /* Reduced blur effect */,
+              backdropFilter: "blur(5px)",
             }}
           />
           <div className="flex-1">
@@ -98,7 +106,7 @@ function BottomPlayer() {
               type="range"
               min="0"
               max={audioRef.current?.duration || 0}
-              value={currentTime} // Use currentTime state here
+              value={currentTime}
               onChange={handleProgressChange}
               className="absolute top-0 left-0 w-full h-full opacity-0"
             />

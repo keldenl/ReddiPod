@@ -26,12 +26,6 @@ function PodcastPlayer() {
         const data = yaml.load(response.data);
         setEpisodeInfo(data);
         setLoadedSubEp(`${episodeId}`);
-        playEpisode({
-          title: data.title,
-          url: `${BASE_URL}/subreddit/${subreddit}/${episodeId}.m4a`,
-          image: `${BASE_URL}/subreddit/${subreddit}/cover.png`,
-          podcastName: `r/${subreddit}`,
-        });
 
         // Fetch transcript
         const transcriptResponse = await axios.get(
@@ -44,7 +38,18 @@ function PodcastPlayer() {
     }
 
     fetchEpisodeInfo();
-  }, [subreddit, episodeId, playEpisode, loadedSubEp]);
+  }, [subreddit, episodeId, loadedSubEp]);
+
+  const handlePlayEpisode = () => {
+    if (episodeInfo) {
+      playEpisode({
+        title: episodeInfo.title,
+        url: `${BASE_URL}/subreddit/${subreddit}/${episodeId}.m4a`,
+        image: `${BASE_URL}/subreddit/${subreddit}/cover.png`,
+        podcastName: `r/${subreddit}`,
+      });
+    }
+  };
 
   if (!episodeInfo || !transcript) {
     return <div>Loading...</div>;
@@ -61,6 +66,12 @@ function PodcastPlayer() {
         <div className="px-4">
           <h1 className="text-2xl font-bold mb-2">{episodeInfo.title}</h1>
           <p className="text-gray-400 mb-4">By KAI & ELIZA</p>
+          <button
+            onClick={handlePlayEpisode}
+            className="w-full bg-red-600 hover:bg-red-500 text-white font-bold py-2 px-4 rounded-full mb-4"
+          >
+            Play Episode
+          </button>
           <div className="mb-4">
             <p className="text-gray-400">{episodeInfo.description}</p>
           </div>

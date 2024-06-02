@@ -9,7 +9,7 @@ import { PlayerProvider } from "./context/PlayerContext";
 function App() {
   return (
     <PlayerProvider>
-      <Router>
+      <Router basename="ReddiPod">
         <div className="flex flex-col min-h-screen bg-black text-white">
           <Navbar />
           <div className="flex-grow">

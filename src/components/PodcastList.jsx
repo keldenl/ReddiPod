@@ -30,7 +30,7 @@ function PodcastList() {
         className="px-4 py-2 w-full rounded-full bg-gray-800 text-white focus:outline-none"
       />
 
-      <div className="mt-8">
+      {/* <div className="mt-8">
         <h2 className="text-xl font-bold mb-4">Popular Today</h2>
         <div className="grid grid-cols-3 gap-4">
           {podcasts.slice(0, 3).map((subreddit) => (
@@ -51,10 +51,10 @@ function PodcastList() {
             </Link>
           ))}
         </div>
-      </div>
+      </div> */}
 
       <div className="mt-8">
-        <h2 className="text-xl font-bold mb-4">Playlist</h2>
+        <h2 className="text-xl font-bold mb-4">Subreddits</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {podcasts.map((subreddit) => (
             <Link
