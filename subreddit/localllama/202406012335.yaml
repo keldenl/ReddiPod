@@ -1,0 +1,10 @@
+description: Join Kai and Eliza on ReddiPod as they dive into the latest geeky goodness
+  from r/LocalLLaMA. From dual-GPU setups with 2x RTX 3090s, benchmarking GPU performance
+  for LLaMA models, and exploring human reading speed vs AI processing speeds - this
+  episode has it all! Tune in to hear their lively discussion on these topics and
+  more.
+links:
+- /r/LocalLLaMA/comments/1d5vxe7/so_i_bought_second_3090_here_are_my_results_llama/
+- /r/LocalLLaMA/comments/1d64w50/is_there_a_database_of_models_gpus_macs_and/
+- /r/LocalLLaMA/comments/1d66k9f/if_we_assume_that_1_token_4_chars_in_english_1/
+title: 2x RTX 3090, LLaMA Benchmarks & Human Reading Speed
