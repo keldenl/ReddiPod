@@ -18,7 +18,7 @@ function PodcastPlayer() {
       try {
         if (
           loadedSubEp != null &&
-          loadedSubEp === `${subreddit}-${episodeId}`
+          loadedSubEp === `${episodeId}`
         ) {
           return;
         }
@@ -28,17 +28,17 @@ function PodcastPlayer() {
         );
         const data = yaml.load(response.data);
         setEpisodeInfo(data);
-        setLoadedSubEp(`${subreddit}-${episodeId}`);
+        setLoadedSubEp(`${episodeId}`);
         playEpisode({
           title: data.title,
-          url: `${BASE_URL}/subreddit/${subreddit}/${subreddit}-${episodeId}.m4a`,
+          url: `${BASE_URL}/subreddit/${subreddit}/${episodeId}.m4a`,
           image: `${BASE_URL}/subreddit/${subreddit}/cover.png`,
           podcastName: `r/${subreddit}`,
         });
 
         // Fetch transcript
         const transcriptResponse = await axios.get(
-          `${BASE_URL}/subreddit/${subreddit}/${subreddit}-${episodeId}.txt`
+          `${BASE_URL}/subreddit/${subreddit}/${episodeId}.txt`
         );
         setTranscript(transcriptResponse.data);
       } catch (error) {
@@ -69,7 +69,9 @@ function PodcastPlayer() {
           </div>
           <div className="mb-4">
             <h2 className="text-xl font-bold mb-2">Transcript:</h2>
-            <pre className="whitespace-pre-wrap text-gray-400">{transcript}</pre>
+            <pre className="whitespace-pre-wrap text-gray-400">
+              {transcript}
+            </pre>
           </div>
         </div>
       </div>
