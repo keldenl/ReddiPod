@@ -16,10 +16,7 @@ function PodcastPlayer() {
   useEffect(() => {
     async function fetchEpisodeInfo() {
       try {
-        if (
-          loadedSubEp != null &&
-          loadedSubEp === `${episodeId}`
-        ) {
+        if (loadedSubEp != null && loadedSubEp === `${episodeId}`) {
           return;
         }
 
