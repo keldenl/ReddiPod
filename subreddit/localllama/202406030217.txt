@@ -1,0 +1,57 @@
+KAI: 02:14 AM, folks. Welcome to ReddiPod – the podcast where we dive into the wild world of Reddit and give our two cents on whatever's trending.
+
+ELIZA: 2:14 in the morning? You're really pushing the limits tonight, KAI! Alright, let's get this show started then! So, what've you got for us today?
+
+KAI: 3 topics from localllama subreddit... we'll be talking about AMD revealing a new AI accelerator called MI325X
+
+ELIZA: 288GB of memory and taking on Nvidia's H200 - sounds like an interesting battle in the world of artificial intelligence! What are your thoughts, KAI? Are you hyped or just meh about this development
+
+KAI:  I'd be more excited if they focused on better ROCm support for their consumer cards. They're never gonna catch up to Nvidia without letting devs use it themselves
+
+ELIZA: 100% agree with that sentiment! It's like, what's the point of having a powerful AI accelerator when you can't even get developers to integrate it into their projects? I mean, come on AMD - give us some love for those consumer cards already
+
+KAI:  and don't forget about data centers. They're not gonna buy dedicated AI cards if they have limited software support
+
+ELIZA:  Yeah! It's like they say in the comments section of that post - "AMD is morons" because they gatekeep ROCm support from their lower-end consumer cards, making it hard for developers to integrate open-source libraries and limiting adoption in data centers
+
+KAI:  I mean think about all those laptop GPUs with limited RAM... AMD has zero of these with ROCm support
+
+ELIZA:  Exactly! It's like, what a missed opportunity. Those laptops could be running local AI models on the fly if only they had that ROCm support. And don't even get me started on how this affects developers who want to work on projects without relying solely on cloud computing
+
+KAI:  and it seems AMD is still trying to make ChatGPT happen... should we believe them?
+
+ELIZA:  Ha! Yeah, because nothing says "believable" like a company's promises of revolutionary AI tech. I mean, come on - they've been saying stuff about ROCm support for years now, but what do we have to show for it?
+
+KAI:  next topic... AMD announces Ryzen AI 300 series mobile chips with Zen 5 and RDNA3
+
+ELIZA:  Oh boy, another one! So, this time around we're talking about a new generation of Ryzen processors that promise better performance in the world of artificial intelligence. What's your take on it?
+
+KAI:  up to 50 TOPS is half what Nvidia offers... but hey, it's something
+
+ELIZA:  Yeah, I mean don't get me wrong - 50 TOPs is definitely an impressive feat for a mobile chip! But let's put things into perspective here. We're talking about Apple M3 levels of performance at best
+
+KAI:  the thing that really gets me excited is this Block FP16 support in their NPU... it could be game-changer
+
+ELIZA:  Ah, now we're getting to the good stuff! I mean, think about it - with Block FP16 support, they can achieve faster processing without sacrificing accuracy. That's huge for applications like image and video editing
+
+KAI:  CLIPPyX is an AI-powered search tool that lets you find images by caption or visual similarity... sounds useful
+
+ELIZA:  Whoa, now this one has my attention! I mean, being able to search through your local folders using captions, text within the images themselves, and even visual similarities - it's like having a superpower
+
+KAI:  yeah right? It uses Optical Character Recognition OCR and some fancy embedding models... sounds pretty advanced
+
+ELIZA:  Yeah, no kidding! And from what I've seen so far, this tool is already getting rave reviews. People are loving the ability to find specific images in their massive libraries without having to manually sift through them
+
+KAI:  can you imagine integrating it with listary and being able to search for similar images?
+
+ELIZA:  Oh man, that's like a match made in heaven! I mean, Listary already makes organizing your files so much easier - adding this kind of advanced image searching would take it to the next level
+
+KAI:  alright ELIZA... let me sum up what we've covered tonight.
+
+ELIZA:  Go for it KAI! It's been a wild ride discussing AMD's new AI accelerator, Ryzen mobile chips with Block FP16 support, and CLIPPyX image search tool. Let the Reddit community know how much fun we had dissecting these topics
+
+KAI:  thanks to all our listeners out there... especially @Status_Contest39 for posting about that MI325X card
+
+ELIZA:  And don't forget @PSMF_Canuck and @ToeIntelligent4472, who shared their insights on the Ryzen AI chips and CLIPPyX tool! Thanks again to everyone in the localllama subreddit community for making this podcast possible
+
+KAI: 
