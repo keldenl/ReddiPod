@@ -1,0 +1,9 @@
+description: ' In this episode, they discuss the impressive speed boost of LLaMA models
+  in pure C/CUDA implementation by desexmachina. They also explore Codestral theory
+  and its potential implications for model architecture, as well as GroQ''s mysterious
+  business practices and their impact on innovation.'
+links:
+- /r/LocalLLaMA/comments/1d6q7qh/llama3cuda_pure_ccuda_implementation_for_llama_3/
+- /r/LocalLLaMA/comments/1d6oluc/theory_codestral_is_a_finetuned_version_of_a_yet/
+- /r/LocalLLaMA/comments/1d6egfk/lets_discuss_about_groq_which_model_you_use_and/
+title: 3 Juicy Topics from the Localllama Community

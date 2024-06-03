@@ -1,0 +1,101 @@
+KAI:  welcome to ReddiPod, I'm KAI...
+
+ELIZA:  ...and I'm ELIZA! *laughs* Sunday Funday vibes on a lovely June evening at approximately 7:49 PM – we're diving into some juicy topics straight from the depths of Reddit's localllama community. Buckle up, folks!
+
+KAI:  and today...
+
+ELIZA:  ...we've got three fascinating discussions to dissect together with our trusty hosts' commentary style *wink*. So, what's on deck for us? The first topic is all about LLaMA models – specifically, a pure C/CUDA implementation of the model that claims an impressive speed boost.
+
+KAI:  yeah... so this guy desexmachina has implemented llama3 in pure c cuda and got some crazy results
+
+ELIZA:  *intrigued* Ah, now I'm curious! So, what kind of numbers are we talking about? And how does it compare to those fancy PyTorch or vllm implementations that everyone loves to rave about
+
+KAI:  so the author claims an increase in speed by around...
+
+ELIZA:  ...85 times faster than NumPy on a NVIDIA 4080 SUPER GPU! That's some serious horsepower, my friend. And I'm wondering if this means we'll see more developers opting for pure C/CUDA implementations to squeeze every last bit of performance out of their hardware
+
+KAI:  and the comments are going wild... likejazz is asking about differences between cuda vs pytorch implementation
+
+ELIZA:  *chuckles* Ah, always love when commenters dive deep into tech details! Yeah, I mean, it's not just a matter of "which one is faster" – there must be some fundamental trade-offs at play here. Like, what kind of memory constraints are we talking about? Is PyTorch still the better choice for certain types of models or workloads?
+
+KAI:  and then you have people asking when whisper will come to cuda
+
+ELIZA:  *laughs* Oh man, always love a good "when's it coming?" question! I mean, Whisper is like the golden child right now – everyone wants in on that action. And honestly, if this pure C/CUDA implementation of LLaMA3 can hold its own against PyTorch and vllm... maybe we'll see some interesting developments down the line
+
+KAI:  okay moving to topic 2; codestral theory ```
+
+```
+
+assistant
+
+
+
+ELIZA;  *intrigued* Ah, now I'm curious! So what's this Codestral business all about? Sounds like someone has a juicy conspiracy theory brewing
+
+ELIZA:  *leans in* Yeah, I love a good mystery! So Codestral is fine-tuned on code dataset? That's like, totally plausible... but then again, maybe it's just me being too skeptical. What do you think KAI - are we looking at some kind of genius-level engineering or just plain old-fashioned copying
+
+KAI:  and people in the comments were speculating about moe architecture
+
+ELIZA:  *excitedly* Ooh, now that's where things get really interesting! Mixture-of-Experts (MoE) architectures can be so powerful when done right. I mean, it makes sense to me that someone would try fine-tuning on a smaller model and then scaling up with MoE... but what about the actual implementation? Are we talking expert models in an ensemble or something more exotic like hierarchical attention
+
+KAI:  yeah  some people were asking if moe is even possible
+
+ELIZA:  *laughs* Ah, always love when commenters get into philosophical debates! I mean, can MoE really be that straightforward to implement... especially with the complexities of expert models and gateways? It's like trying to solve a Rubik's Cube blindfolded while reciting Shakespearean sonnets
+
+KAI:  okay moving on to topic 3; groq model discussion ```
+
+```
+
+assistant
+
+
+
+ELIZA;  *curious* Ah, GroQ! I've heard whispers about their LLaMA models being super fast... but at what cost? What's the real deal with these guys and why are they so secretive
+
+ELIZA:  *intrigued* Yeah, I've heard rumors about their custom chips being super efficient... but is it worth the trade-off in terms of accuracy? And what's up with this quantization business? Are they really sacrificing precision for speed or just trying to make a quick buck
+
+KAI:  yeah and people are talking about subscription model ```
+
+assistant
+
+
+
+ELIZA;  *frustrated* Ugh, don't even get me started on the whole "subscription-only" thing! I mean, come on GroQ - you're holding back innovation for profit? It's like they think we're made of money or something
+
+ELIZA:  *exasperated* Yeah, I know right?! It's like, we get it - you're trying to monetize your tech... but can't you at least offer some kind of free tier or trial? Geez Louise!
+
+KAI:  yeah and people are also talking about the model size
+
+ELIZA:  *skeptical* Ah, okay, so now they're complaining about model sizes?! Like, what's new here? We've been dealing with bloated models for years - it's not like GroQ is breaking any new ground
+
+KAI:  yeah and some people are talking about token/s per gpu time
+
+ELIZA:  *intrigued* Ah, now that's a metric I can get behind! Token-per-GPU-time? That sounds like something we could really sink our teeth into. Like, how does GroQ stack up against other models in terms of efficiency... is it truly the best or just another overhyped solution
+
+KAI:  and some people are talking about llama3 70b
+
+ELIZA:  *curious* Ah, LLaMA 3-70B? That's an interesting one! I've heard rumors that model has been making waves in certain circles... what kind of performance numbers are we looking at here? Is it really worth the hype or just another overpriced solution
+
+KAI:  and then there was this comment about freonr2 saying something like "cards have limited SRAM"
+
+ELIZA:  *intrigued* Ah, now that's a great point! Limited SRAM on those cards is definitely going to affect performance... I mean, it's not just about raw processing power anymore. You need memory bandwidth and storage capacity too
+
+KAI:  yeah and then there was this comment from djangoUnblamed saying something like "groq doesn't have their own LLM"
+
+ELIZA:  *surprised* Whoa, really? GroQ doesn't develop its own Large Language Models?! That's a major red flag for me... I mean, what are they even doing if not developing the models themselves
+
+KAI:  yeah and then there was this comment from americanKamikaze asking about groq model ```
+
+```
+
+assistant
+
+
+
+ELIZA;  *laughs* Ahahahaha! Okay, okay, let's get to it! So American Kamikaze wants to know more about GroQ... what a great question!
+
+ELIZA:  *concludes* And that wraps up our discussion on GroQ! Thanks to all you folks who chimed in with your thoughts - it's been a wild ride. Special shoutouts to desexmachina for the pure C/CUDA implementation, @No_Afternoon_4260 for their Codestral theory, and American Kamikaze for sparking that conversation about GroQ models
+
+KAI:  thanks everyone
+
+ELIZA: 
