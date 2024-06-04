@@ -10,6 +10,7 @@
         "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
         "preview": "vite preview",
         "generate": "cd llama-autopod && python -m main ${npm_config_subreddit} && cd ..",
+        "new-podcast": "cd llama-autopod && python -m create_subreddit_podcast ${npm_config_subreddit} && cd ..",
         "predeploy": "npm run build",
         "deploy": "gh-pages -d dist"
     },
