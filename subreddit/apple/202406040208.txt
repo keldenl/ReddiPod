@@ -1,0 +1,55 @@
+Kelden:  welcome to ReddiPod, I'm your host Kelden. It's Tuesday morning, June 4th at approximately 2:03 AM...
+
+Emily: 02:03 in the morning? You're a night owl, aren't ya, buddy?! Welcome back listeners! We've got an exciting episode lined up for you today on this lovely summer morning – or should I say, early hours of the day.  Kelden and I are here to dive into three juicy topics straight from Reddit's Apple subreddit. Let's get started with our first topic; Spotify raising its prices again!
+
+Kelden:  so Emily...
+
+Emily:  what's on your mind about this price hike, my friend? Are you feeling the pinch or do you think it's justifiable given their focus on podcasts and exclusive deals?  Go ahead, let me know.
+
+Kelden:  I gotta say, Spotify has blown a lot of money on some pretty stupid ideas...
+
+Emily:  oh boy, burn! You're not holding back today, are you?! But seriously, what specific stupid idea do you think they've wasted their cash on? And don't get me wrong, as someone who loves music discovery and exploration, I'm all for innovation – but maybe Spotify's priorities should be elsewhere... @cddotdotslash, the original poster of this topic, had some strong words about it too.
+
+Kelden:  yeah! like that one time they spent a bunch on those stupid DJ sessions or whatever
+
+Emily:   Oh man, you're talking about their Spotify Sessions feature? Yeah, I remember when they launched that and everyone was all excited... but then the novelty wore off pretty quickly. And don't even get me started on how some of these exclusive deals might be affecting music fans' experiences! @raysway666 had a great point – Spotify's algorithm used to know us so well, but now it feels like we're stuck in an echo chamber with recommendations that are just the same old stuff over and over.
+
+Kelden:  I don't get why they can't make their app simpler...
+
+Emily:  amen to that! Simplicity is key when you've got a massive user base, right? It's like @SeatPaste7 said – Spotify keeps breaking features left and right, raising prices, firing employees... it feels like they're more focused on appeasing shareholders than actually improving the music experience for users. And don't even get me started on that UI A/B testing nightmare! I mean, can we just have a stable interface already?
+
+Kelden:  you know what's weird is apple Music has come really far and now has all the features...
+
+Emily:   Ahahahaha, burn again! You're absolutely right though – Apple Music did take some time to get its footing, but it seems like they've finally figured things out. I mean, have you seen their Discover Weekly playlist? It's still one of my go-to playlists every week! And yeah, the audio quality is definitely a step up from Spotify too... @chickentataki99 mentioned how Apple Music has been winning them over with its cleaner interface and better sound – what do you think about that?
+
+Kelden:  but I have to say though Emily
+
+Emily:  oh boy, this sounds like it's gonna be good! What are your reservations or frustrations with Apple Music, my friend? Don't hold back!
+
+Kelden:  is there a way on apple music... uh... study playlist without affecting discovery station... thingy... you know what I mean?
+
+Emily:   Ahahahaha, yeah, I think we all have those moments when our brains go blank trying to describe something tech-related. Yeah, @yp261 was asking the same question – is there a way on Apple Music to listen to your Study Playlist without it affecting Discover Weekly or other personalized playlists?
+
+Kelden:  and then... topic number two!
+
+Emily:  woohoo! Alright folks, let's dive into our second topic of today - Epic Games' judge tells Apple she wants all their decision-making documents related to policies and fees.  This one has got everyone talking in the tech world, including @FollowingFeisty5321 who said it's a sign that the judge is losing trust with Apple... what do you think about this development?
+
+Kelden:  I mean, if they're gonna make these rules then maybe they should be transparent about how those decisions are made
+
+Emily:  absolutely! Transparency is key when we talk about policies and fees. It's like @Large_Armadillo said - Apple lawyers never take a day off, but sometimes it seems like their transparency could use some improvement . And I'm with you on this one, Kelden – if they're gonna make these rules that affect developers' livelihoods, then we should know the thought process behind those decisions. What do our listeners think? Should Apple be more open about how they arrive at their policies and fees?
+
+Kelden:  yeah... it's not like a judge can just dictate what apple charges
+
+Emily:  exactly! @nocsi brought up that point too – shouldn't judges stay out of the pricing game when it comes to tech companies like Apple? I mean, isn't this whole thing about letting the free market decide how much people are willing to pay for services and products?
+
+Kelden:  yeah... anyway moving on to our final topic
+
+Emily:  okay! Let's wrap up with some WWDC excitement! We're just a week away from Apple's Worldwide Developers Conference, and folks like @Bostonlbi can't wait to see what new features they'll announce. From rumors of an updated settings app design to potential updates for iPhone users looking to upgrade – the anticipation is building! What are you most excited about seeing at WWDC this year?
+
+Kelden:  I'm thinking maybe some public API that lets us use LLM...
+
+Emily:  ooh, now we're talking! Large Language Models  could revolutionize so many industries and apps – wouldn't it be amazing if Apple announced a way for developers to integrate those capabilities into their own projects? @MediaMoguls is already speculating about the possibilities. What do you think would happen if LLMs became more accessible through public APIs, Kelden?
+
+Kelden:  that's all we have time for today...
+
+Emily: 
