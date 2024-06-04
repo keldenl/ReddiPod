@@ -4,5 +4,6 @@ description: "The original and largest Tesla community on Reddit! An unofficial 
   \ currently headquartered in Austin, Texas. \n\nTheir mission is to accelerate the\
   \ world's transition to sustainable energy. They produce vertically integrated electric\
   \ vehicles, batteries, solar, and AI software and hardware solutions."
-episodes: null
+episodes:
+- '202406041152'
 title: r/teslamotors
