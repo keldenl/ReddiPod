@@ -1,0 +1,53 @@
+{NAME_2}:  it's 12:39 AM on a Tuesday, and we're back with another episode of ReddiPod.
+
+Emily:  welcome to our podcast! I'm excited for tonight's topics – got my coffee ready too, might need an extra cup after this one . So Kelden, what caught your eye from the Apple subreddit that you want us to dive into?
+
+Kelden:  yeah... so we've got a post about WWDC '24 just around the corner. some people are really stoked for new features and design updates – others think it's all hype
+
+Emily:  oh man, I'm excited!  Apple fans can get pretty worked up over this stuff. So what specific rumors or changes do you want to tackle? Is that poster @Bostonlbi giving us any juicy tidbits we should know about?
+
+Kelden:  yeah... so there's speculation around an updated settings app design and support for topographic maps in Maps – some people are even hoping for a new mouse with the charging port on the bottom.
+
+Emily:   oh, I love how specific these rumors get! Topographic maps would be amazing - can you imagine navigating those hikes without getting lost? And that mouse idea is actually not too crazy... although, who knows if it'd really make a difference at this point
+
+Kelden:  and then there's the Intel Macs thing – people are speculating they might phase out intel chips for ARM-based processors
+
+Emily:  oh boy, that would be huge! I mean, we've seen Apple switch to their own silicon before with iPhones and iPads - it'd make sense if they're trying to consolidate. But what does this mean for developers? Are you guys going to have to rewrite all your code again 
+
+Kelden:  yeah... some people are saying the end of Intel Macs is near, which could be a game-changer
+
+Emily:  I can see both sides - on one hand, it'd make Apple's ecosystem even more seamless and streamlined. On the other, what about all those developers who've invested in x86 architecture? It'll be interesting to see how they adapt...
+
+Kelden:  yeah exactly – so let me ask you this Emily – do we really need new hardware at WWDC when software updates can bring such significant changes
+
+Emily:  that's a great question, Kelden! I think it depends on the kind of innovation Apple wants to push. If all they're doing is tweaking settings and Maps, maybe not as exciting... but if there are major architectural shifts or game-changing features coming down the pipe? That'd be worth getting hyped about
+
+Kelden:  alright well we'll have to wait till next week to find out – moving on
+
+Emily:   yeah, can't rush Apple's secrets! Alrighty then... what's up for topic number two? I think @dccorona had a post that caught your eye regarding the lack of new hardware at WWDC and how it affects our beloved TV streaming device
+
+Kelden:  exactly – so there was this poster who said they're not sure what else can be done with Apple TV unless they start positioning it as more than just a media player, like maybe even competing directly in gaming
+
+Emily:  oh man, that's an interesting take! I mean, we've seen how well the Xbox and PlayStation have carved out their niches - could Apple really make headway there? And what about all those developers who'd need to adapt again 
+
+Kelden:  yeah... it would be a big shift for them – but maybe they're onto something with this whole focus on gaming
+
+Emily:  I can see the potential, especially if they leverage their strengths in terms of ease-of-use and integration. But wouldn't that require some serious changes to the TVOS itself? Like, what about apps from third-party devs? Would Apple have to open up more or create a new framework for game development
+
+Kelden:  yeah – it's like... would we even want an Apple TV if they start competing directly with console gaming
+
+Emily:   that's the million-dollar question! I mean, on one hand, having all our media and games in one place could be super convenient. On the other, do you really need a dedicated device for each?
+
+Kelden:  alright – moving on to topic number three... sleep tracking with Apple Watch
+
+Emily:  oh boy, this is gonna get real . I've had my fair share of trying out different wearables and apps - what's your take on the accuracy of Apple Watch's sleep tracking feature? @Western-Guy shared their experience testing it against a lab-grade test
+
+Kelden:  yeah... so some people are saying that even with all these fancy sensors, wearable devices can't replace actual polysomnography – but I think they're getting better at providing general trends and patterns
+
+Emily:  exactly! It's about finding the sweet spot between accuracy and practicality. And what do you make of @beeduthekillernerd 's experience using it as a new parent?
+
+Kelden:  yeah... sleep tracking is super important for them – I can imagine how tough that must be with an infant
+
+Emily:   oh, the joys of parenthood! Yeah, getting enough rest when you're caring for tiny humans can feel like a luxury. But hey, at least we have our trusty wearables to give us some insight into what's going on
+
+Kelden: 
