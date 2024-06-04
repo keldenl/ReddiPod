@@ -44,7 +44,7 @@ function PodcastPlayer() {
     if (episodeInfo) {
       playEpisode({
         title: episodeInfo.title,
-        url: `${BASE_URL}/subreddit/${subreddit}/${episodeId}.m4a`,
+        url: `${BASE_URL}/subreddit/${subreddit}/${episodeId}.wav`,
         image: `${BASE_URL}/subreddit/${subreddit}/cover.png`,
         podcastName: `r/${subreddit}`,
       });

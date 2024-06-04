@@ -1,0 +1,53 @@
+{NAME_2}: 12:29 AM, on this fine Tuesday morning – welcome to ReddiPod with Kelden and Emily. We're diving into some fascinating topics from the localllama subreddit today
+
+Emily:  yeah, I'm excited! Locallama always has some great stuff going through their community. So what's our first topic?
+
+Kelden:  alright so let me just...  ...diffusion-based program synthesis – that sounds like a mouthful right? But basically it seems to be this new approach where they're editing code while preserving its validity, allowing them to combine search with neural diffusion models
+
+Emily:  wow, I love the sound of that! So essentially what you're saying is that instead of generating code one token at a time without considering output, these researchers are taking on an iterative edit-approach?
+
+Kelden:  exactly – it's like they're inverting noise applied to syntax trees. And get this - large language models currently generate code sequentially...
+
+Emily:  yeah! That makes sense because I've noticed with LLMs that sometimes the generated code can be a bit wonky, and you gotta fix all these little things afterwards. This diffusion-based approach sounds way more elegant – like they're actually thinking about how to make it work in real-world scenarios
+
+Kelden:  ninjasaid13 pointed out this paper on arXiv...
+
+Emily:  ah yeah! I love when people share papers and resources, keeps us up-to-date with the latest developments. So what did you think of that abstract? Did anything stand out to you as particularly interesting or groundbreaking about it
+
+Kelden:  well gibs also mentioned something pretty cool – plugging a diffusion model into unreal engine...
+
+Emily:  whoa! That's like, next-level stuff right there! I mean can you imagine having this kind of power in game development? It would be insane to see what creators could do with that level of generative capability
+
+Kelden:  maybe these 3d engines don't have APIs for full programmability...
+
+Emily:  yeah, it's like they're still stuck in the dark ages when it comes to code integration. I mean we've seen some amazing things happen when people can actually write custom scripts and plugins – think of all the possibilities if Unreal Engine could be hacked into with this kind of diffusion-based magic
+
+Kelden:  alright moving on... what do you make of Nekileo's idea for an open-source model better than GPT-4?
+
+Emily:  oh boy, that sounds like a wild ride! I love how ambitious people are willing to dream big and propose these huge projects. But yeah, getting funding from individual contributors might be tough – \$100M is no small ask
+
+Kelden:  or as bullno1 pointed out... maybe it's not just about hardware cost but also datacenter costs power consumption developer resources support requirements
+
+Emily:  exactly! It's like they're underestimating the sheer scale of what would go into making this happen. I mean, you'd need a whole team to manage all that infrastructure and maintenance – plus who knows how long training such a massive model would take
+
+Kelden:  Redoer_7 had an interesting point about building open-source applications instead
+
+Emily:  yeah! That's what really gets me excited - the potential for community-driven innovation. If we can create these LLM-based apps that are actually usable and beneficial, it could be a game-changer for accessibility
+
+Kelden:  alright moving on to our last topic... Capable-Reaction8155 built an open rig with four 3090 GPUs
+
+Emily:  whoa! That's like building a rocket ship or something - I mean what kind of power are we talking about here? And yeah, the concerns about heat and fire hazards aren't exactly unfounded
+
+Kelden:  KriosXVII brought up some good points... this feels like early Bitcoin mining rigs that set fires in dorm rooms
+
+Emily:  oh man! That's a great comparison - it really puts into perspective just how reckless people can be with their setups. I mean, we're talking about four high-end GPUs here, not to mention the electricity bill
+
+Kelden:  and tmvr is right too... curtains might need some extra attention around this rig
+
+Emily:  haha! Yeah, maybe they should invest in a fireproof curtain or something - that's just asking for trouble. And what was prudant saying about \$3500-4000 USD? That sounds like a small price to pay for potential destruction
+
+Kelden:  well there you have it folks... our topics from the localllama subreddit
+
+Emily:  yeah, always exciting stuff coming out of that community! Thanks again to all the posters and commenters who shared their thoughts - we couldn't do this without them. And as a special shoutout – ninjasaid13 for sharing that paper on arXiv, gibs for plugging in unreal engine ideas... and Capable-Reaction8155 for showing off those 4x3090 GPUs
+
+Kelden: 
