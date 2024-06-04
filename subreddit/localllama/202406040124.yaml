@@ -1,0 +1,11 @@
+description: ' This week, they''re discussing diffusion-based program synthesis using
+  neural models on syntax trees of any context-free grammar. They also explore the
+  Bug In Code Stack benchmark and its implications for large language models'' ability
+  to find syntactic bugs. Finally, they discuss a new text-to-speech model developed
+  by Cartesia AI that shows significant improvements over transformers.'
+links:
+- /r/LocalLLaMA/comments/1d7pr5d/found_this_paper_diffusionbased_program_synthesis/
+- /r/LocalLLaMA/comments/1d7c903/new_codefocused_needle_in_the_haystack_benchmark/
+- /r/LocalLLaMA/comments/1d7qm2x/early_details_of_mamba_2/
+title: 'Diffusion-Based Synthesis and Bug-Finding with Neural Models: A Deep Dive
+  into Syntax Trees, Code Benchmarks, and Text-to-Speech Advances'

@@ -1,0 +1,73 @@
+Kelden:  welcome to ReddiPod, I'm your host Kelden. It's currently Tuesday June 4th at approximately 1:18 AM and we're diving into some fascinating topics from the localllama subreddit
+
+Emily:  Ahaha, nice one! And what a weird time of day for us to be up and about... but hey, that just means our listeners are even more dedicated than usual. Alright Kelden, let's get started with topic number one; Diffusion-based program synthesis?
+
+Kelden:  yeah so I read this paper on arXiv the other day
+
+Emily:  Ah, sweet! You're a true nerd at heart, always diving into new research papers and whatnot... What caught your attention about this particular paper? Was it something that made you go hmm or maybe even make you excited for potential applications in programming languages
+
+Kelden:  yeah so the idea is to use neural diffusion models on syntax trees of any context-free grammar.
+
+Emily:  Whoa, hold up! Neural diffusion models and syntax trees... That sounds like some advanced AI wizardry right there! So they're trying to create a model that can iteratively edit code while preserving syntactic validity? How does this differ from traditional large language models  in your opinion
+
+Kelden:  yeah exactly. I mean LLMs are great at generating text, but when it comes to actual programming tasks...
+
+Emily:  Yeah! They're more like hello world kind of genius, right? But actually writing real-world code that's maintainable and bug-free is a whole different ball game. So this diffusion-based approach sounds promising for tackling those kinds of challenges
+
+Kelden:  yeah exactly. And I love the idea of converting images into program representations
+
+Emily:  Whoa! That blows my mind, Kelden! Inverse graphics tasks like that could have huge implications in fields like computer vision and game development... Imagine being able to generate entire scenes or characters just by feeding an image through a model
+
+Kelden:  but what about the lack of APIs for full programmability
+
+Emily:  Ahahahaha, oh man, you're really digging deep into this topic! Yeah, I can see how that would be a major roadblock... It's like trying to build a Lego castle without having access to all the right pieces
+
+Kelden:  and then there were some comments about OpenSCAD
+
+Emily:  Ahahahaha, okay now we're getting into some real-world implications! So people are mentioning OpenSCAD as an example of how this diffusion-based approach could be used in practice? I'm curious... what kind of projects do you think would benefit from these kinds of tools
+
+Kelden:  yeah and metaballs
+
+Emily:  Metaballs, oh man! That's like a blast from the past for me - remember when we were all about Gaussian splatting back in the day? Anyway, I'm curious... how does this diffusion-based approach fit into that whole world of shape manipulation
+
+Kelden:  alright let's move on to topic number two
+
+Emily:  Alrighty! Topic number two it is!  So what've we got for us today? Something about a new code-focused benchmark, I think?
+
+Kelden:  yeah so the Bug In Code Stack  benchmark was created by Hamming HQ and UWaterloo researchers
+
+Emily:  Ahahahaha, love that name! Bug in the Code Stack - sounds like something straight out of a sci-fi movie  But seriously though, what's this BICS all about? How does it test these large language models' ability to find syntactic bugs
+
+Kelden:  so GPT-4o performed best
+
+Emily:  Ahahahaha! So the reigning champ is none other than our favorite AI overlord, GPT-4o  I mean, what's not surprising about that? But seriously though, it'll be interesting to see how this benchmark evolves and if we can learn more from its results
+
+Kelden:  but Claude Opus struggled on BICS
+
+Emily:  Oh snap! Looks like someone didn't quite live up to the hype  I mean, don't get me wrong, Claude's a great model in many ways... But it seems they might need some extra work before taking on those pesky bugs
+
+Kelden:  alright let's move onto topic number three
+
+Emily:  Alright! Topic number three is looking like it'll be an exciting one  What've we got for us today? Something about Mamba 2, I think?
+
+Kelden:  yeah so Cartesia AI has developed a text-to-speech model using SSMs that shows significant improvements over transformers
+
+Emily:  Whoa! Text-to-speech models are always fascinating to me... So they're saying this new approach with Self-Supervised Models  is showing some serious gains? What's the catch, though - what makes it so much better than traditional transformer-based approaches
+
+Kelden:  and there was a comment about Mambo No. 5
+
+Emily:  Ahahahaha! Oh man, I love when people get creative with their comments  So someone brought up Mambo No. 5 - is that like some kind of inside joke or what?
+
+Kelden:  yeah and then there were other models mentioned too... M34L was curious about Mambo No. 5 performance
+
+Emily:  Ahahahaha, okay now we're getting into the weeds! So people are wondering if this new text-to-speech model can handle some funky tunes like Mambo No. 5? I'm dying to know what kind of music it's capable of generating
+
+Kelden:  alright that wraps up our topics for today
+
+Emily:  Ahahahaha, and just in the nick of time! Thanks for joining us on this wild ride through Reddit posts Kelden  We covered diffusion-based program synthesis, a new code-focused benchmark, and even dabbled into some text-to-speech models. It's been a blast chatting with you about all these fascinating topics
+
+Kelden:  thanks Emily
+
+Emily:  No problemo! And don't forget to shout out those awesome Redditors who contributed to our discussions today - @gibs for the diffusion-based program synthesis, Open_Channel_8626 and their BICS benchmark results...  Thanks again everyone for tuning in to this episode of ReddiPod!
+
+Kelden: 
