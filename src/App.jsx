@@ -15,9 +15,9 @@ function App() {
           <div className="flex-grow">
             <Routes>
               <Route path="" element={<PodcastList />} />
-              <Route path="/podcast/:subreddit" element={<PodcastDetail />} />
+              <Route path="/r/:subreddit" element={<PodcastDetail />} />
               <Route
-                path="/podcast/:subreddit/episode/:episodeId"
+                path="/r/:subreddit/episode/:episodeId"
                 element={<PodcastPlayer />}
               />
             </Routes>

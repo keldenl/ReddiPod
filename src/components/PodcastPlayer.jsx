@@ -43,10 +43,9 @@ function PodcastPlayer() {
   const handlePlayEpisode = () => {
     if (episodeInfo) {
       playEpisode({
-        title: episodeInfo.title,
-        url: `${BASE_URL}/subreddit/${subreddit}/${episodeId}.wav`,
-        image: `${BASE_URL}/subreddit/${subreddit}/cover.png`,
-        podcastName: `r/${subreddit}`,
+        episodeInfo,
+        episodeId,
+        subreddit,
       });
     }
   };
@@ -76,7 +75,26 @@ function PodcastPlayer() {
             <p className="text-gray-400">{episodeInfo.description}</p>
           </div>
           <div className="mb-4">
-            <h2 className="text-xl font-bold mb-2">Transcript:</h2>
+            <h2 className="text-md font-bold mb-2">Reddit Posts</h2>
+            {episodeInfo.links && episodeInfo.links.length > 0 && (
+              <ul className="list-decimal list-inside">
+                {episodeInfo.links.map((link, index) => (
+                  <li key={index}>
+                    <a
+                      href={`https://www.reddit.com${link}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-400 hover:underline break-all"
+                    >
+                      {link}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </div>
+          <div className="mt-8 mb-4">
+            <h2 className="text-xl font-bold mb-2">Transcript</h2>
             <pre className="whitespace-pre-wrap text-gray-400">
               {transcript}
             </pre>

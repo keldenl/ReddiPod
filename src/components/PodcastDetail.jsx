@@ -10,6 +10,7 @@ function PodcastDetail() {
   const { subreddit } = useParams();
   const [podcastInfo, setPodcastInfo] = useState(null);
   const [episodes, setEpisodes] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     async function fetchPodcastInfo() {
@@ -30,8 +31,10 @@ function PodcastDetail() {
 
         const episodesData = await Promise.all(episodePromises);
         setEpisodes(episodesData);
+        setLoading(false);
       } catch (error) {
         console.error("Error fetching podcast info:", error);
+        setLoading(false);
       }
     }
 
@@ -42,7 +45,7 @@ function PodcastDetail() {
     return (
       <div className="bg-black text-white min-h-screen flex items-center justify-center">
         <div className="text-center">
-          <p className="text-xl">Loading...</p>
+          <p className="text-xl">{loading ? 'Loading...' : 'Podcast does not exist... yet!'}</p>
         </div>
       </div>
     );
@@ -66,7 +69,7 @@ function PodcastDetail() {
               {episodes.map((episode) => (
                 <Link
                   key={episode.date}
-                  to={`/podcast/${subreddit}/episode/${episode.date}`}
+                  to={`/r/${subreddit}/episode/${episode.date}`}
                   className="flex items-center bg-gray-900/85 rounded-lg p-4 hover:bg-gray-900 transition-colors duration-300"
                 >
                   {/* <img

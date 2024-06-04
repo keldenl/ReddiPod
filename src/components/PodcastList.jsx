@@ -36,7 +36,7 @@ function PodcastList() {
           {podcasts.slice(0, 3).map((subreddit) => (
             <Link
               key={subreddit}
-              to={`/podcast/${subreddit}`}
+              to={`/r/${subreddit}`}
               className="relative rounded-lg overflow-hidden" // Added relative for overlay
             >
               <img
@@ -59,7 +59,7 @@ function PodcastList() {
           {podcasts.map((subreddit) => (
             <Link
               key={subreddit}
-              to={`/podcast/${subreddit}`}
+              to={`/r/${subreddit}`}
               className="bg-gray-900 rounded-lg overflow-hidden"
             >
               <img

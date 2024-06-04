@@ -1,9 +1,17 @@
 import { useContext, useState, useRef, useEffect } from "react";
-import PlayerContext from "../context/PlayerContext";
+import { Link } from "react-router-dom";
 import { FaPlay, FaPause } from "react-icons/fa";
+
+import PlayerContext from "../context/PlayerContext";
+import { BASE_URL } from "../constants";
 
 function BottomPlayer() {
   const { currentEpisode } = useContext(PlayerContext);
+  const { episodeInfo, episodeId, subreddit } = currentEpisode || {};
+  // title: episodeInfo.title,
+  // url: `${BASE_URL}/subreddit/${subreddit}/${episodeId}.wav`,
+  // image: `${BASE_URL}/subreddit/${subreddit}/cover.png`,
+  // podcastName: `r/${subreddit}`,
   const [isPlaying, setIsPlaying] = useState(false);
   const [currentTime, setCurrentTime] = useState(0);
   const audioRef = useRef(null);
@@ -65,12 +73,16 @@ function BottomPlayer() {
   }
 
   return (
-    <div className="fixed bottom-4 left-0 right-0  px-4 z-20">
+    <Link
+      key={episodeId}
+      className="fixed bottom-4 left-0 right-0  px-4 z-20"
+      to={`/r/${subreddit}/episode/${episodeId}`}
+    >
       <div className="w-full max-w-md mx-auto rounded-xl overflow-hidden bg-white/10 backdrop-blur-md shadow-lg">
         <div className="flex items-center px-4 py-2">
           <img
-            src={currentEpisode.image}
-            alt={currentEpisode.title}
+            src={`${BASE_URL}/subreddit/${subreddit}/cover.png`}
+            alt={episodeInfo.title}
             className="w-16 h-16 object-cover mr-4 rounded-md"
             style={{
               backdropFilter: "blur(5px)",
@@ -78,11 +90,9 @@ function BottomPlayer() {
           />
           <div className="flex-1">
             <h3 className="text-white text-lg font-medium">
-              {currentEpisode.title}
+              {episodeInfo.title}
             </h3>
-            <p className="text-gray-400 text-sm">
-              {currentEpisode.podcastName}
-            </p>
+            <p className="text-gray-400 text-sm">{`r/${subreddit}`}</p>
           </div>
           <button onClick={handlePlayPause} className="p-2">
             {isPlaying ? (
@@ -113,13 +123,13 @@ function BottomPlayer() {
           </div>
         </div>
         <audio
-          src={currentEpisode.url}
+          src={`${BASE_URL}/subreddit/${subreddit}/${episodeId}.wav`}
           ref={audioRef}
           onPlay={() => setIsPlaying(true)}
           onPause={() => setIsPlaying(false)}
         />
       </div>
-    </div>
+    </Link>
   );
 }
 
