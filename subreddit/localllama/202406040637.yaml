@@ -1,0 +1,11 @@
+description: They  discuss KoboldCpp 1.67, a new release with exciting features like
+  integrated whisper.cpp and quantized KV cache enhancements. They also explore Mamba
+  2's text-to-speech models and potential applications in music generation and voice
+  acting. Additionally, they touch on Yi-1.5-34B becoming the highest-ranked model
+  under Apache 2.0 license, but note that users are having mixed experiences with
+  general tasks due to fine-tuning requirements.
+links:
+- /r/LocalLLaMA/comments/1d7u7k4/koboldcpp_167_released_integrated_whispercpp_and/
+- /r/LocalLLaMA/comments/1d7qm2x/early_details_of_mamba_2/
+- /r/LocalLLaMA/comments/1d7rp9n/yi1534b_is_now_the_highest_ranked_30b_modelapache/
+title: 'Tech Talk: New Releases and AI Advancements in the World of Programming'

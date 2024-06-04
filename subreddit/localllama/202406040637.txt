@@ -1,0 +1,71 @@
+Kelden: 6:30 AM, Tuesday June 4th... and welcome to ReddiPod where we dive into the latest trends from Localllama. I'm your host Kelden
+
+Emily:  Ahahahaha, nice one, Kelden! And joining me today is my trusty co-host, yours truly Emily.  We've got a packed show for you all, folks! Our first topic comes straight from Reddit's Locall llama community...
+
+Kelden:  so what do we have on the menu?
+
+Emily:  Well, Kelden, our top post today is about KoboldCpp 1.67 being released with some exciting new features like integrated whisper.cpp and quantized KV cache enhancements!  Can you believe it?! What's your take on this one, partner in crime?
+
+Kelden:  oh man... I'm not sure what to make of all these tech jargon words but the demo sounds pretty cool
+
+Emily:  Ahahahaha, fair enough, Kelden! Yeah, let me break it down for our listeners. So, whisper.cpp is a speech-to-text endpoint that's been integrated into KoboldCpp, and quantized KV cache enhancements are supposed to improve performance...  But I'm more curious about what the demo sounds like too! Did you hear anything interesting in those comments?
+
+Kelden:  yeah there was this one comment from olaf4343 asking if it runs on crappy hardware
+
+Emily:  Oh man, that's a great point! So, @olaf4343 is wondering how well KoboldCpp performs on less-than-stellar hardware. And then someone replied saying the laptop they're using has a loud fan because of its powerful GPU...  I love these kinds of comments that give us real-world insight into what people are actually experiencing with this tech! What do you think, Kelden? Is KoboldCpp worth checking out for those who don't have top-of-the-line hardware?
+
+Kelden:  yeah i mean it's not like we're asking our users to run a supercomputer in their living room
+
+Emily:  Exactly! I mean, come on, most of us are running laptops or desktops that aren't exactly bleeding-edge machines. So if KoboldCpp can still deliver decent performance even with some compromise...  That could be really game-changing for folks who want to get into this tech without breaking the bank
+
+Kelden:  and also I think it's cool they're giving credit where due, mentioning ggerganov and whisper.cpp developers
+
+Emily:  Absolutely! Kudos to KoboldCpp devs for acknowledging their contributors. It's always great when projects recognize the hard work of others in the community...  You know how important a little bit of shoutout can go a long way
+
+Kelden:  yeah, it does make you wonder what other hidden gems are out there just waiting to be discovered
+
+Emily:  Exactly! And that's one thing I love about following these tech communities – the constant discovery and innovation. It keeps things fresh and exciting...  Alright, moving on from KoboldCpp for now, let's dive into our next topic; Mamba 2
+
+Kelden:  oh boy
+
+Emily:  What? You're not excited to talk about text-to-speech models with Self-Supervised Models ? Come on, Kelden! 
+
+Kelden:  okay fine I'm curious... what's the big deal here ?
+
+Emily:  So, Mamba 2 is a new model that uses SSMs and shows some impressive results in text-to-speech tasks. Apparently, it outperforms transformers when training for audio-related tasks...  And people are already wondering if this could be used to generate music or even do voice acting!
+
+Kelden:  yeah but can it really handle complex conversations?
+
+Emily:  Ahahahaha, good question, Kelden! The commenters on Reddit were debating whether Mamba 2 is suitable for in-context learning...  Some folks are saying that maybe this hybrid model could be the ticket to better conversational AI
+
+Kelden:  and what about music generation?
+
+Emily:  Oh man, people are already asking if it can generate a rendition of Mambo No.5! I mean, who wouldn't want an AI-powered Mambo party?!  But seriously, the potential for Mamba 2 in music gen is huge...
+
+Kelden:  and what about fine-tuning?
+
+Emily:  Ahahahaha, yeah, folks are already talking about how important it'll be to get that chat tune just right. I mean, who wants their AI-generated Mambo song sounding like a robotic mess?!  But seriously, fine-tuning will likely make all the difference in getting Mamba 2's music gen capabilities up and running smoothly
+
+Kelden:  alright next topic... Yi-1.5-34B is now the highest ranked ~30B model/Apache 2.0 model on LMSYS leaderboard
+
+Emily:  Whoa, that's a mouthful!  Okay, let me break it down for our listeners – so, Yi-1.5-34B has taken over as the top-ranked 30 billion parameter  language model under Apache 2.0 license...
+
+Kelden:  but some users are having mixed experiences with general tasks
+
+Emily:  Ahahahaha, yeah, it's always interesting to see how real-world usage affects AI models! So, even though Yi-1.5-34B is the top dog on LMSYS leaderboard, folks are reporting varying results when using it for everyday chatbot stuff...  Guess that fine-tuning we talked about earlier comes into play again
+
+Kelden:  and some users have suggested adjusting default tune from 01.ai
+
+Emily:  Ahahahaha, yeah! Because sometimes those defaults just don't cut the mustard, right? So, it seems like folks are saying you gotta tweak that chat tune to get Yi-1.5-34B performing well for your specific use case...
+
+Kelden:  and also some users have reported issues with Q2XXs quantization
+
+Emily:  Ahahahaha, yeah! The joys of dealing with different quants! It's like trying to find the perfect coffee-to-water ratio – too much or too little can make all the difference!  So, it seems like folks are saying that Yi-1.5-34B needs a bit more... finessing when it comes to those Q2XXs
+
+Kelden:  and victor2999 had some questions about commercial use licenses
+
+Emily:  Ahahahaha, yeah! Because who doesn't love getting bogged down in licensing agreements?!  So, Victor2999 is wondering if you need a special license for commercial use of Yi-1.5-34B...
+
+Kelden:  and kataryna91 gave some welcome words about the release
+
+Emily: 
