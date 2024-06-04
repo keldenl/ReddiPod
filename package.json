@@ -1,5 +1,6 @@
 {
     "name": "reddipod",
+    "homepage": "https://keldenl.github.io/ReddiPod/#",
     "private": true,
     "version": "0.0.0",
     "type": "module",

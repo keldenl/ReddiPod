@@ -1,0 +1,53 @@
+Kelden: 3:02 AM, folks. We're live on the ReddiPod – welcome to another wild ride with me and Emily
+
+Emily: ouch, early morning for us tonight Kelden! But hey, we've got some great topics lined up so I'm sure our listeners will be wide awake by the end of this episode
+
+Kelden:  right? So let's dive in. We're going over three trending posts from Reddit today... and first off – Apple says M2 iPad Air performance claims are accurate despite GPU mix-up
+
+Emily: ouch, sounds like some drama with those iPads! I mean, who doesn't love a good hardware controversy to spice up their day. What do you think about this one Kelden?
+
+Kelden:  yeah... so apparently they're saying the M2 iPad Air has a 9-core GPU instead of 10-cores as initially claimed – what's your take on it
+
+Emily:  well, I'm no tech expert but to me that sounds like just a minor mistake. But hey, when you've got folks dropping \$500+ for an iPad, accuracy matters! Do you think Apple should be more careful with their specs or is this really not the end of the world?
+
+Kelden:  yeah... and some users are saying they're due refunds because of it – what do you make of that
+
+Emily:  now we get into sticky territory. I mean, if someone buys something thinking one thing only to find out it's different, they've got a right to be upset. But on the other hand, Apple did correct their mistake pretty quickly and updated their website... so where does responsibility lie?
+
+Kelden:  yeah exactly! And some people are saying that this would never happen with smaller vendors because of lawsuits – what do you think about that
+
+Emily:  oh man, I love a good what if scenario. If Apple were indeed a small vendor, maybe they'd be more careful... but let's not forget the scale and resources at their disposal here! It's like comparing apples to oranges .
+
+Kelden:  alright folks we're moving on to our next topic – Halide team released Kino, a new pro video camera app
+
+Emily:  ooh, cameras are my jam! I've heard great things about the Halide crew and their attention to detail. What's your take on this one?
+
+Kelden:  yeah... so it seems like they're trying to make high-quality cinematic videos accessible without needing extensive editing skills or color grading knowledge
+
+Emily:  that sounds amazing for creatives who want to focus more on storytelling than getting bogged down in technicalities! And I love the idea of presets made by pros – does this mean we'll see some sick new content coming our way?
+
+Kelden:  yeah... and users are already reporting slow UI performance issues with their iPhone 14 Pro devices, but they're working hard to optimize it
+
+Emily:  ugh, nothing's perfect in the first release, right? I'm sure those Halide folks will get it sorted out. But hey, at least they're being transparent about it – what do you think is more important; a snappy UI or getting that cinematic look just right?
+
+Kelden:  alright next topic... Safari Extension to remove web elements by slicing them with your finger
+
+Emily:  whoa, that sounds like some crazy magic! I mean, I've seen browser extensions before but this one's got me curious – how does it work and what kind of use cases are people finding for it?
+
+Kelden:  yeah... so the extension is called Snip and uses manifest v3, which only works on iOS 15.4 or later due to compatibility issues
+
+Emily:  okay, tech details aside, I want to know – how does this thing actually work in practice? Do you just slice away at a webpage like it's pizza toppings and voilà! No more annoying ads?
+
+Kelden:   yeah... so some users are having trouble figuring out where the menu options for Snip are located
+
+Emily:  ahaha, I can imagine – sometimes even with tech-savvy folks, we all need a little guidance. But hey, at least they're getting help from each other in those comments!
+
+Kelden:  and there's some concern about data collection too... but the dev clarified that no user info is collected
+
+Emily:  phew, okay good to know – always important for our digital security and privacy! Kudos to Snip devs for being transparent about it. Now let's get back to those menu options... anyone else having trouble finding them?
+
+Kelden:  yeah folks we're wrapping up the show tonight... thanks so much for tuning in
+
+Emily:  indeed, appreciate you all joining us on this wild ride through Reddit! Big shoutout to our original posters and commentors – your insights made these topics come alive. Until next time, stay curious and keep it real
+
+Kelden: 

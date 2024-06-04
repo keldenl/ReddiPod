@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import PodcastList from "./components/PodcastList";
 import PodcastDetail from "./components/PodcastDetail";
 import PodcastPlayer from "./components/PodcastPlayer";
@@ -9,7 +9,7 @@ import { PlayerProvider } from "./context/PlayerContext";
 function App() {
   return (
     <PlayerProvider>
-      <Router basename="ReddiPod">
+      <Router>
         <div className="flex flex-col min-h-screen bg-black text-white">
           <Navbar />
           <div className="flex-grow">
