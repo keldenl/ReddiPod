@@ -1,12 +1,12 @@
 {
     "name": "reddipod",
-    "homepage": "https://keldenl.github.io/ReddiPod/#",
+    "homepage": "https://keldenl.github.io/ReddiPod",
     "private": true,
     "version": "0.0.0",
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "build": "vite build",
+        "build": "vite build  && cp dist/index.html dist/404.html",
         "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
         "preview": "vite preview",
         "generate": "cd llama-autopod && python -m main ${npm_config_subreddit} && cd ..",
