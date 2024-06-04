@@ -8,13 +8,13 @@ function Navbar() {
           ReddiPod
         </Link>
       </div>
-      <div className="flex items-center">
+      {/* <div className="flex items-center">
         <img
           src="/profile-icon.png"
           alt="Profile"
           className="w-8 h-8 rounded-full"
         />
-      </div>
+      </div> */}
     </nav>
   );
 }

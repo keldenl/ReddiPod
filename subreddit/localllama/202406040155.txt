@@ -1,0 +1,53 @@
+Kelden: 1:51 AM on a Tuesday morning, and welcome to ReddiPod. I'm your host Kelden
+
+Emily:  And I'm Emily! Good to be here with my partner in crime... again, at an ungodly hour. But hey, someone's gotta keep the internet entertained while everyone else is sleeping. So grab that coffee or tea, get comfy, and let's dive into today's topics from Reddit's r/Localllama subreddit
+
+Kelden:  Alright so our first topic comes courtesy of @Robot_Graffiti who asks; Could we get a completely open source model better than GPT-4?
+
+Emily:  That is an intriguing question! So, the idea here is to create an entirely open-source AI model that surpasses GPT-4. Now, I've got some concerns about this - like how are they planning on funding it and what kind of resources would be needed to train such a massive model
+
+Kelden:  Yeah, one major concern for me too... cost. Even if you could gather enough funds, there's still the issue of datacenter costs, power consumption, developer salaries...
+
+Emily:  Exactly! It's not just about throwing money at it. I mean, we're talking trillions of words to train this thing, and that kind of scale requires some serious infrastructure. And let me tell ya, NVIDIA might be willing to support enterprise customers but open-source projects? That's a whole different story
+
+Kelden:  Yeah... maybe they should focus on building an application with existing model weights instead of trying to build from scratch
+
+Emily:  Now that I can get behind! Building something new is always exciting, but sometimes it makes more sense to iterate and improve what we already have. And hey, if you're talking about LLM-based models, there are some great applications out there already - maybe the focus should be on making those better rather than trying to reinvent the wheel
+
+Kelden:  So @Robot_Graffiti mentions that even with \$100M it might not cut it...
+
+Emily:  Whoa, hold up! A hundred million dollars? That's a lot of money. I mean, we're talking about training an AI model here, but still - what kind of team would they need to assemble and how much expertise are we looking at for this project? It seems like there'd be more value in focusing on smaller-scale projects with existing resources
+
+Kelden:  Yeah... maybe it is just a dream that's not feasible right now
+
+Emily:  I think you're being too kind, Kelden. Maybe dream implies some level of feasibility or at least plausibility. This feels like one of those ideas that sounds great on paper but falls apart under scrutiny
+
+Kelden:  Alright next topic... @jadbox has built a way to instantly replace OpenAI with llama.cpp with just one line
+
+Emily:  Whoa, now this is more like it! One-line replacement? That's some magic right there. I mean, as someone who loves the idea of having control over my own data and not being beholden to proprietary tech... this sounds amazing
+
+Kelden:  So @cocktail_peanut claims that with Llamanet you can manage multiple llama.cpp servers and models without needing any extra setup or knowledge about LLMS
+
+Emily:  That's incredible! I mean, think about it - no more worrying about setting up separate instances of OpenAI or dealing with the complexity of managing different models. Just one command line switch and boom, you're good to go
+
+Kelden:  And @vesudeva is giving credit to cocktail_peanut for being a mad scientist
+
+Emily:   Ahahahaha! Mad scientist? That's awesome! I love it when people can take complex tech concepts and make them accessible with such ease. Cocktail_pnut, you're definitely the wizard behind this curtain
+
+Kelden:  So does Llamanet support OpenAI function calling... runTools
+
+Emily:  Ooh, good question! According to cocktail_peanut's comment, it seems like that feature isn't supported yet, but people are working on it. I mean, if they can get that sorted out, this thing is gonna be a game-changer for devs and researchers alike
+
+Kelden:  Alright last topic... @Comprehensive_Poem27 shares some exciting news about Yi-1.5-34B being the highest ranked ~30B model/Apache 2.0 model on LMSYS leaderboard
+
+Emily:  Ah, nice! So it seems like this new kid on the block is making waves in the AI world. I'm curious to know more - what makes Yi-1.5-34B so special? Is there something about its architecture or training data that sets it apart from other models
+
+Kelden:  And @Comprehensive_Poem27 mentions personal tests have confirmed positive results, which could be attributed to unique architecture and/or training data
+
+Emily:  Ah-ha! So not only is Yi-1.5-34B performing well on the leaderboard, but actual users are seeing real-world benefits from using it? That's some serious validation right there
+
+Kelden:  And that wraps up our topics for today... thanks to all those Reddit posters and commenters who made this episode possible
+
+Emily:  Absolutely! Shout-out to @Robot_Graffiti, @jadbox, cocktail_peanut, Comprehensive_Poem27, and everyone else who contributed to these fascinating discussions. Until next time on ReddiPod, stay curious, keep exploring, and remember; the future is what you make of it
+
+Kelden: 

@@ -65,7 +65,7 @@ function PodcastPlayer() {
         />
         <div className="px-4">
           <h1 className="text-2xl font-bold mb-2">{episodeInfo.title}</h1>
-          <p className="text-gray-400 mb-4">By KAI & ELIZA</p>
+          <p className="text-gray-400 mb-4">By Kelden</p>
           <button
             onClick={handlePlayEpisode}
             className="w-full bg-red-600 hover:bg-red-500 text-white font-bold py-2 px-4 rounded-full mb-4"

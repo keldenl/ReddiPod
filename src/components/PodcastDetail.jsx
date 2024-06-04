@@ -49,16 +49,16 @@ function PodcastDetail() {
   }
 
   return (
-    <div className="bg-black text-white min-h-screen flex justify-center pt-8">
+    <div className="bg-black text-white min-h-screen flex justify-center">
       <div className="max-w-6xl w-full p-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="md:col-span-1 sticky top-4 self-start">
+          <div className="md:col-span-1 md:sticky top-4 self-start">
             <img
               src={`${BASE_URL}/subreddit/${subreddit}/cover.png`}
               className="w-full h-auto mb-4 rounded-lg"
             />
             <h1 className="text-3xl font-bold mb-4">{podcastInfo.title}</h1>
-            <p className="text-gray-400 mb-8">{podcastInfo.description}</p>
+            <p className="text-gray-400">{podcastInfo.description}</p>
           </div>
           <div className="md:col-span-2 bg-black z-10">
             <h2 className="text-xl font-bold mb-4">Episodes</h2>

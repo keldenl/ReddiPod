@@ -1,0 +1,12 @@
+description: They  discuss the feasibility of creating an open-source AI model better
+  than GPT-4, and explore alternative solutions like building applications with existing
+  models. They also cover a one-line replacement for OpenAI's llama.cpp and Llamanet,
+  which allows managing multiple servers without extra setup or knowledge about LLMS.
+  Finally, they touch on the Yi-1.5-34B model being ranked highest in an Apache 2.0
+  leaderboard.
+links:
+- /r/LocalLLaMA/comments/1d7pwgu/could_we_get_a_completely_open_source_model/
+- /r/LocalLLaMA/comments/1d76s35/ive_built_a_way_to_instantly_replace_openai_with/
+- /r/LocalLLaMA/comments/1d7rp9n/yi1534b_is_now_the_highest_ranked_30b_modelapache/
+title: 'Beyond GPT-4: Open-Sourcing AI, Alternative Solutions and Model Management
+  Hacks'
