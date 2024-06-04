@@ -1,0 +1,61 @@
+Kelden:  welcome to ReddiPod, the podcast where we dive into some of the most interesting and thought-provoking topics from Reddit's r/localllama. I'm your host Kelden...
+
+Emily:  ...and I'm Emily! It is Tuesday, June 4th, at approximately 3:19 PM – perfect timing for a mid-day pick-me-up or an after-work unwind. We've got three exciting topics lined up today that are sure to spark some lively discussions and debates. So grab your favorite snack, get comfy, and let's dive in!
+
+Kelden:  Stanford Team Admits Plagiarizing MiniCPM 2.5 for Llama3-V Model
+
+Emily:  Whoa, plagiarism? That's a big deal! Kelden, what are you thinking about this whole situation with the Stanford team admitting to plagiarizing MiniCPM 2.5 for their Llama3-V model?  
+
+Kelden:  I think it's pretty cut-and-dried, right? You've got a group of undergrads who are supposed to be doing original research but instead they're just copying someone else's work...
+
+Emily:  Ah, yeah! That does seem like an easy call. But what really gets me is that the apology seems kinda half-hearted, you know? They're basically saying oh, we didn't mean to and then downplaying it as if it was no big deal @anothy1 pointed out in their post – they think the students are trying to shift blame onto someone else. Do you buy into that or do you think there's more going on here?  
+
+Kelden:  yeah I agree it seems like a pretty weak apology...
+
+Emily:  Exactly! It feels like they're trying to save face rather than actually owning up to what happened. And you know who else is not having it? @YearnMar10, that's for sure – they think the students are just passing the buck and getting away with it. What do you make of their take on this whole situation?  
+
+Kelden:  I don't blame them one bit...
+
+Emily:  Yeah, me neither! It seems like a classic case of someone else did it syndrome – they're trying to deflect responsibility and make someone  take the fall. And what really gets my goat is that this incident highlights broader concerns about academic integrity in research communities. I mean, how can we trust these findings if people are just copying each other's work?
+
+Kelden:  totally agree...
+
+Emily:  Right?! It's like, academia should be all about original thought and innovation, not regurgitating someone else's ideas without credit! And what does it say for the future of research when students can't even follow basic ethics guidelines?  Okay, moving on to our next topic – anyone have thoughts on Codestral solving a problem in two messages that others couldn't crack after hours?  
+
+Kelden:  yeah...
+
+Emily:  So it seems like this OP was having some major struggles with getting their custom button to work in Salesforce, but then Codestral comes along and solves the problem in two messages? That's impressive! What do you think is going on there – did they just get lucky or are these models really that powerful?  
+
+Kelden:  I mean...
+
+Emily:  Yeah?! It sounds like Codestral was able to pick up where GPT4o, Opus, and even Claude couldn't. And what's interesting is how @AnticitizenPrime mentions they were trying different approaches with those models but got nowhere – it just goes to show that sometimes you need a fresh perspective or approach!
+
+Kelden:  yeah... I don't know man...
+
+Emily:  Haha, fair enough! It does seem like Codestral is the MVP here. But what's also cool is how @Ok_Direction4392 points out that licensing and usage limitations can be important considerations – makes you think about when to use which models for different projects
+
+Kelden:  yeah...
+
+Emily:  And it seems like a lot of people are really impressed with Codestral, but there might still be some hesitation or skepticism. @MemoryEmptyAgain says they've had mixed experiences and ended up canceling their GPT Plus subscription – what do you think is going on here?
+
+Kelden:  I don't know man...
+
+Emily:  Yeah, it's tough to say! But at the same time, there are some really cool use cases for Codestral. @Wonderful-Top-5360 mentions they're using it locally and loving how fast and concise the output is – maybe we'll see more people experimenting with this model in different contexts?
+
+Kelden:  yeah...
+
+Emily:  Alright, moving on to our final topic! KoboldCpp has released a new version that integrates Whisper.cpp functionality and quantized KV cache enhancements. What do you make of these updates?  
+
+Kelden:  I don't know much about this stuff but it sounds like some serious tech going down...
+
+Emily:  Yeah, definitely! It seems like KoboldCpp is really pushing the boundaries with their new release – integrating Whisper.cpp and quantized KV cache enhancements? That's heavy-duty coding right there. What do you think @Downtown-Case-1755 would say about this update?  
+
+Kelden:  yeah... I mean it sounds like they're really innovating in that space
+
+Emily:  Totally! And it's great to see people exploring new ways to make coding more efficient and effective. @HadesThrowaway mentions running this demo on their crappy laptop – who knew you could get such impressive results from a humble machine?  
+
+Kelden:  yeah... I think we've covered some really interesting topics today, thanks for joining me on ReddiPod
+
+Emily:  No problem at all! It's been great chatting with you about these fascinating Reddit posts. Before we go, let's give a shoutout to the original posters and commenters who made this episode possible – @anothy1, @YearnMar10, AnticitizenPrime, Ok_Direction4392, MemoryEmptyAgain, Wonderful-Top-5360...
+
+Kelden: 
