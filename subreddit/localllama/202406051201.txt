@@ -1,0 +1,69 @@
+Kelden: 11:55 AM on a beautiful Wednesday, June 5th, and we're kicking off another episode of ReddiPod with me Kelden
+
+Emily:  Ahaha, nice one, dude! Welcome back to the show where we dive into the weird and wonderful world of Reddit's top posts. I'm your co-host Emily, and today we've got three juicy topics from r/localllama that'll keep you entertained for sure
+
+Kelden:  Alright let's get started with our first topic; GLM-4 9B base chat model
+
+Emily:  Whoa, this one sounds like a mouthful! So, Kelden tells me it's called the GLM-4 9B and it's some kind of language model thingy. What makes you so excited about it?
+
+Kelden:  Yeah, I mean...it comes in three variants - VLM with 8k tokens, LLM with 128k tokens, and LLMA . And get this; one of the notable features is its function calling capability
+
+Emily:  Hold up, slow down! So it's like a Swiss Army knife for language models? I mean, being able to call functions on top of just generating text sounds pretty cool. But what kind of applications do you think people will use this thingy for?
+
+Kelden:  Yeah exactly! And the license is kinda...interesting
+
+Emily:  Interesting?! What does that even mean? You're gonna have me worried, Kelden! Tell me more about this irrevocable and revocable nonsense. Is it like a puzzle or something? Can we figure out what they meant by that?
+
+Kelden:  Yeah I know right...I think the poster was saying Zhipu AI is behind this model
+
+Emily:  Ah, okay! So some Chinese startup called Zhipu AI is trying to make waves in the language modeling space. And now they're releasing a massive model like GLM-4? That's bold. But what do you really think about their approach? Are we seeing another OpenAI wannabe or something more innovative happening here?
+
+Kelden:  I don't know, man...I'm just excited for this kind of tech to be out there
+
+Emily:  Fair enough! Progress is progress, right? And who knows what kinda cool projects people will come up with using these advanced language models. But on the other hand, are we gonna see some shady stuff happening too? Like, how do you think Zhipu AI's business model works if they're giving away a 1M token LLMA for free?
+
+Kelden:  yeah...I guess that is something to consider
+
+Emily:  Exactly! The devil's in the details. I mean, on one hand, it sounds like a generous move by Zhipu AI to release such an advanced model without charging people left and right. But what are they getting out of this? Are there some hidden catches or strings attached somewhere down the line?
+
+Kelden:  yeah...I think we should just wrap up our discussion here
+
+Emily:  Alright, alright! I agree. It's been a wild ride discussing GLM-4 9B and its implications on language modeling technology. Thanks for joining me to dive into this topic, Kelden! Next stop is Topic #2 from r/localllama...
+
+Kelden:  yeah let's move onto the next one
+
+Emily:  Alrighty then! Our second topic today comes courtesy of @doomed151 and their experience with Mistral V3. Apparently, it's a language model that really respects formatting instructions. What do you think about this Kelden? Have we got another contender for our favorite LLM crown?
+
+Kelden:  yeah I've heard good things about mistral v0.3
+
+Emily:  Ahaha! So the hype is real then! @doomed151 says it's particularly great at following formatting instructions, which can be a major pain point when working with language models. Have you tried using Mistral V3 yourself? What kind of experiences did you have?
+
+Kelden:  I haven't actually...but others seem to really like it
+
+Emily:  Fair enough! So the word on the street is that @doomed151 has been having some great success with Mistral v0.3, and other users are echoing similar sentiments about its formatting prowess. But what do you think sets this model apart from all the rest? Is there something special sauce going into making it tick?
+
+Kelden:  I'm not sure...but maybe supporting function calling is a big part of it
+
+Emily:  Ahaha! You're onto something, Kelden! Function calls can be super powerful in language models. And if Mistral V3 has that capability built-in, no wonder people are raving about its performance! Do you think this could give other LLMs like LLMA or even OpenAI's own models a run for their money?
+
+Kelden:  yeah maybe...it'll definitely make it more competitive
+
+Emily:  Exactly! The playing field just got leveled up, folks! With Mistral V3 in the mix, we're gonna see some serious competition brewing. And I'm excited to see how this all plays out. Thanks for bringing us into your world of LLMs and formatting wars, @doomed151!
+
+Kelden:  yeah...thanks doomed151
+
+Emily:  Alrighty then! That's a wrap on our second topic from r/localllama. Time to move onto the final one before we sign off today. Our third and last stop is courtesy of @a_slay_nub, who has open-sourced their citation-centric local-LLM application called LARS
+
+Kelden:  yeah...I'm curious about this one
+
+Emily:  Ahaha! Me too, Kelden! So it seems like @a_slay_nub wants to make our lives easier with a desktop app that can run LLMS locally. And the main feature is advanced citations? Sounds like some serious research-grade stuff going on here! What do you think about LARS and its potential impact on the academic community, Kelden?
+
+Kelden:  yeah...I'm not sure what I'd use it for but it sounds cool
+
+Emily:  Fair enough! Sometimes we don't always know how something will be useful until someone comes along with a creative solution. And hey, even if LARS doesn't revolutionize your workflow today, who knows when you might need advanced citations in the future? Thanks to @a_slay_nub for sharing their project and making it open-source!
+
+Kelden:  yeah...thanks for joining me on this episode of ReddiPod
+
+Emily:  Aw, thanks Kelden! It's been a blast chatting with ya about these fascinating topics from r/localllama. Until next time when we dive into more Reddit goodness, stay curious and keep exploring the wild world of language models!
+
+Kelden: 
